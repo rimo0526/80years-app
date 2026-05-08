@@ -1,0 +1,7 @@
+=== START 2026/05/08 12:35:58.50 === 
+GITHUB_REPO = https://github.com/rimo0526/80years-app.git 
+ 
+=== [1] git init === 
+Initialized empty Git repository in C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/.git/
+=== [3] git remote === 
+=== [4] git add === 

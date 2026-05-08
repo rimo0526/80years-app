@@ -1,0 +1,32 @@
+=== START 2026/05/08 11:26:09.73 === 
+=== sim v3 with GameEngine v1.2 (balance tuning) === 
+Running build hooks...Running build hooks...Starting simulation: 1000 chars
+Loaded 203 events from assets/data/events.json
+Done in 1s
+CSV written: sim_v3.csv
+=== AI Simulation Summary ===
+Total chars       : 1000
+Reached age 80    : 914 (91.4%)
+Avg lifespan      : 88.8
+Bankruptcy rate   : 0.0%
+Avg events fired  : 88.8
+
+Avg lifespan by era:
+  昭和: 85.8
+  平成: 89.1
+  令和: 89.3
+  近未来: 90.6
+
+Avg lifespan by strength:
+  頭脳: 88.4
+  肉体: 91.5
+  コミュ: 87.5
+  センス: 86.5
+  運: 89.9
+
+Death cause distribution:
+  寿命: 503 (50.3%)
+  病死: 427 (42.7%)
+  老衰: 70 (7.0%)
+
+=== END 2026/05/08 11:26:12.70 === 

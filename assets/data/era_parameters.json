@@ -1,0 +1,42 @@
+{
+  "_comment": "GDD §7.3 時代別パラメータ。Phase 1 で詳細化。",
+  "version": 1,
+  "eras": {
+    "昭和": {
+      "base_lifespan": 72,
+      "starting_salary": 13000,
+      "rent_solo_start": 5000,
+      "wedding_cost": 300000,
+      "deposit_rate_start": 0.05,
+      "mortgage_rate_start": 0.07,
+      "price_index_start": 1.0
+    },
+    "平成": {
+      "base_lifespan": 78,
+      "starting_salary": 140000,
+      "rent_solo_start": 50000,
+      "wedding_cost": 2500000,
+      "deposit_rate_start": 0.04,
+      "mortgage_rate_start": 0.05,
+      "price_index_start": 11.0
+    },
+    "令和": {
+      "base_lifespan": 84,
+      "starting_salary": 200000,
+      "rent_solo_start": 70000,
+      "wedding_cost": 3500000,
+      "deposit_rate_start": 0.00001,
+      "mortgage_rate_start": 0.01,
+      "price_index_start": 15.0
+    },
+    "近未来": {
+      "base_lifespan": 90,
+      "starting_salary": 300000,
+      "rent_solo_start": 100000,
+      "wedding_cost": 4000000,
+      "deposit_rate_start": 0.01,
+      "mortgage_rate_start": 0.02,
+      "price_index_start": 20.0
+    }
+  }
+}

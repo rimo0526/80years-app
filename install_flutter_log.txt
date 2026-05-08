@@ -1,0 +1,297 @@
+=== START 2026/05/08  6:37:54.84 === 
+ 
+=== [1] check git === 
+C:\Program Files\Git\cmd\git.exe
+ 
+=== [2] check existing flutter dir === 
+ 
+=== [3] git clone flutter (stable, depth 1) === 
+Cloning to C:\flutter ... please wait 1-3 minutes 
+Cloning into 'C:\flutter'...
+Updating files:  13% (2128/15361)Updating files:  14% (2151/15361)Updating files:  15% (2305/15361)Updating files:  16% (2458/15361)Updating files:  17% (2612/15361)Updating files:  18% (2765/15361)Updating files:  19% (2919/15361)Updating files:  20% (3073/15361)Updating files:  21% (3226/15361)Updating files:  22% (3380/15361)Updating files:  23% (3534/15361)Updating files:  24% (3687/15361)Updating files:  25% (3841/15361)Updating files:  26% (3994/15361)Updating files:  26% (4127/15361)Updating files:  27% (4148/15361)Updating files:  28% (4302/15361)Updating files:  29% (4455/15361)Updating files:  30% (4609/15361)Updating files:  31% (4762/15361)Updating files:  32% (4916/15361)Updating files:  33% (5070/15361)Updating files:  34% (5223/15361)Updating files:  35% (5377/15361)Updating files:  36% (5530/15361)Updating files:  37% (5684/15361)Updating files:  38% (5838/15361)Updating files:  39% (5991/15361)Updating files:  40% (6145/15361)Updating files:  41% (6299/15361)Updating files:  42% (6452/15361)Updating files:  43% (6606/15361)Updating files:  43% (6626/15361)Updating files:  44% (6759/15361)Updating files:  45% (6913/15361)Updating files:  46% (7067/15361)Updating files:  47% (7220/15361)Updating files:  48% (7374/15361)Updating files:  49% (7527/15361)Updating files:  50% (7681/15361)Updating files:  51% (7835/15361)Updating files:  52% (7988/15361)Updating files:  53% (8142/15361)Updating files:  54% (8295/15361)Updating files:  55% (8449/15361)Updating files:  56% (8603/15361)Updating files:  57% (8756/15361)Updating files:  58% (8910/15361)Updating files:  58% (9013/15361)Updating files:  59% (9063/15361)Updating files:  60% (9217/15361)Updating files:  61% (9371/15361)Updating files:  62% (9524/15361)Updating files:  63% (9678/15361)Updating files:  64% (9832/15361)Updating files:  65% (9985/15361)Updating files:  66% (10139/15361)Updating files:  67% (10292/15361)Updating files:  68% (10446/15361)Updating files:  69% (10600/15361)Updating files:  70% (10753/15361)Updating files:  71% (10907/15361)Updating files:  72% (11060/15361)Updating files:  72% (11081/15361)Updating files:  73% (11214/15361)Updating files:  74% (11368/15361)Updating files:  75% (11521/15361)Updating files:  76% (11675/15361)Updating files:  77% (11828/15361)Updating files:  78% (11982/15361)Updating files:  79% (12136/15361)Updating files:  80% (12289/15361)Updating files:  81% (12443/15361)Updating files:  82% (12597/15361)Updating files:  82% (12621/15361)Updating files:  83% (12750/15361)Updating files:  84% (12904/15361)Updating files:  85% (13057/15361)Updating files:  86% (13211/15361)Updating files:  87% (13365/15361)Updating files:  88% (13518/15361)Updating files:  89% (13672/15361)Updating files:  90% (13825/15361)Updating files:  91% (13979/15361)Updating files:  92% (14133/15361)Updating files:  93% (14286/15361)Updating files:  94% (14440/15361)Updating files:  94% (14498/15361)Updating files:  95% (14593/15361)Updating files:  96% (14747/15361)Updating files:  97% (14901/15361)Updating files:  98% (15054/15361)Updating files:  99% (15208/15361)Updating files: 100% (15361/15361)Updating files: 100% (15361/15361), done.
+ 
+=== [4] add to user PATH === 
+added
+ 
+=== [5] flutter --version (using full path) === 
+Expanding downloaded archive with PowerShell...
+Resolving dependencies...
+Downloading packages...
+Got dependencies.
+Flutter 3.41.9 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 00b0c91f06 (8 days ago) • 2026-04-29 10:03:19 -0700
+Engine • hash 9161402dc0e134b3fb5adee5046b6e84b1a5e1c1 (revision 42d3d75a56) (9 days ago) • 2026-04-28 17:31:55.000Z
+Tools • Dart 3.11.5 • DevTools 2.54.2
+ 
+=== [6] flutter pub get === 
+Downloading Material fonts...                                      191ms
+Downloading Gradle Wrapper...                                       16ms
+Downloading package sky_engine...                                   73ms
+Downloading package flutter_gpu...                                  15ms
+Downloading flutter_patched_sdk tools...                           157ms
+Downloading flutter_patched_sdk_product tools...                   137ms
+Downloading windows-x64 tools...                                 1,629ms
+Downloading windows-x64/font-subset tools...                        70ms
+Resolving dependencies...
+Downloading packages...
++ _fe_analyzer_shared 67.0.0 (100.0.0 available)
++ analyzer 6.4.1 (13.0.0 available)
++ analyzer_plugin 0.11.3 (0.14.9 available)
++ args 2.7.0
++ async 2.13.1
++ boolean_selector 2.1.2
++ build 2.4.1 (4.0.6 available)
++ build_config 1.1.2 (1.3.0 available)
++ build_daemon 4.1.1
++ build_resolvers 2.4.2 (3.0.4 available)
++ build_runner 2.4.13 (2.15.0 available)
++ build_runner_core 7.3.2 (9.3.2 available)
++ built_collection 5.1.1
++ built_value 8.12.6
++ characters 1.4.1
++ checked_yaml 2.0.4
++ ci 0.1.0
++ cli_util 0.4.2 (0.5.1 available)
++ clock 1.1.2
++ code_assets 1.0.0
++ code_builder 4.11.1
++ collection 1.19.1
++ convert 3.1.2
++ crypto 3.0.7
++ cupertino_icons 1.0.9
++ custom_lint 0.6.4 (0.8.1 available)
++ custom_lint_builder 0.6.4 (0.8.1 available)
++ custom_lint_core 0.6.3 (0.8.2 available)
++ dart_style 2.3.6 (3.1.9 available)
++ fake_async 1.3.3
++ ffi 2.2.0
++ file 7.0.1
++ fixnum 1.1.1
++ flutter 0.0.0 from sdk flutter
++ flutter_lints 4.0.0 (6.0.0 available)
++ flutter_riverpod 2.6.1 (3.3.1 available)
++ flutter_test 0.0.0 from sdk flutter
++ flutter_web_plugins 0.0.0 from sdk flutter
++ freezed_annotation 2.4.4 (3.1.0 available)
++ frontend_server_client 4.0.0
++ glob 2.1.3
++ go_router 14.8.1 (17.2.3 available)
++ graphs 2.3.2
++ hive 2.2.3
++ hive_flutter 1.1.0
++ hooks 1.0.3
++ hotreloader 4.4.0
++ http_multi_server 3.2.2
++ http_parser 4.1.2
++ intl 0.19.0 (0.20.2 available)
++ io 1.0.5
++ jni 1.0.0
++ jni_flutter 1.0.1
++ js 0.7.2
++ json_annotation 4.9.0 (4.11.0 available)
++ json_serializable 6.8.0 (6.13.2 available)
++ leak_tracker 11.0.2
++ leak_tracker_flutter_testing 3.0.10
++ leak_tracker_testing 3.0.2
++ lints 4.0.0 (6.1.0 available)
++ logging 1.3.0
++ matcher 0.12.19 (0.12.20 available)
++ material_color_utilities 0.13.0
++ meta 1.17.0 (1.18.2 available)
++ mime 2.0.0
++ native_toolchain_c 0.17.6 (0.18.0 available)
++ objective_c 9.3.0
++ package_config 2.2.0
++ path 1.9.1
++ path_provider 2.1.5
++ path_provider_android 2.3.1
++ path_provider_foundation 2.6.0
++ path_provider_linux 2.2.1
++ path_provider_platform_interface 2.1.2
++ path_provider_windows 2.3.0
++ platform 3.1.6
++ plugin_platform_interface 2.1.8
++ pool 1.5.2
++ pub_semver 2.2.0
++ pubspec_parse 1.5.0
++ record_use 0.6.0
++ riverpod 2.6.1 (3.2.1 available)
++ riverpod_analyzer_utils 0.5.1 (0.5.10 available)
++ riverpod_annotation 2.6.1 (4.0.2 available)
++ riverpod_generator 2.4.0 (4.0.3 available)
++ riverpod_lint 2.3.10 (3.1.3 available)
++ rxdart 0.27.7 (0.28.0 available)
++ shared_preferences 2.5.5
++ shared_preferences_android 2.4.23
++ shared_preferences_foundation 2.5.6
++ shared_preferences_linux 2.4.1
++ shared_preferences_platform_interface 2.4.2
++ shared_preferences_web 2.4.3
++ shared_preferences_windows 2.4.1
++ shelf 1.4.2
++ shelf_web_socket 2.0.1 (3.0.0 available)
++ sky_engine 0.0.0 from sdk flutter
++ source_gen 1.5.0 (4.2.3 available)
++ source_helper 1.3.5 (1.3.12 available)
++ source_span 1.10.2
++ stack_trace 1.12.1
++ state_notifier 1.0.0
++ stream_channel 2.1.4
++ stream_transform 2.1.1
++ string_scanner 1.4.1
++ term_glyph 1.2.2
++ test_api 0.7.10 (0.7.12 available)
++ timing 1.0.2
++ typed_data 1.4.0
++ uuid 4.5.3
++ vector_math 2.2.0 (2.3.0 available)
++ vm_service 15.2.0
++ watcher 1.2.1
++ web 1.1.1
++ web_socket 1.0.1
++ web_socket_channel 3.0.3
++ xdg_directories 1.1.0
++ yaml 3.1.3
+Changed 118 dependencies!
+35 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+ 
+=== [7] flutter analyze --no-pub === 
+Analyzing app_flutter...                                        
+
+   info - Use 'const' for final variables initialized to a constant value - lib\dev\sim_runner.dart:130:5 - prefer_const_declarations
+   info - Use 'const' for final variables initialized to a constant value - lib\dev\sim_runner.dart:131:5 - prefer_const_declarations
+   info - Don't invoke 'print' in production code - lib\dev\sim_runner.dart:368:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\dev\sim_runner.dart:374:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\dev\sim_runner.dart:383:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\dev\sim_runner.dart:387:3 - avoid_print
+   info - Unnecessary braces in a string interpolation - lib\dev\sim_runner.dart:390:9 - unnecessary_brace_in_string_interps
+   info - Missing a required trailing comma - lib\domain\engines\economy_engine.dart:245:73 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\engines\event_resolver.dart:97:91 - require_trailing_commas
+   info - Use a function declaration rather than a variable assignment to bind a function to a name - lib\domain\engines\game_engine.dart:171:11 - prefer_function_declarations_over_variables
+   info - Missing a required trailing comma - lib\domain\engines\game_engine.dart:393:67 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\character.dart:375:66 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\character.dart:378:76 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\family.dart:106:78 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\game_save_data.dart:77:63 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\game_save_data.dart:79:69 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\game_save_data.dart:81:65 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\game_save_data.dart:83:67 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\game_save_data.dart:121:79 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\settings_data.dart:127:64 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\settings_data.dart:129:66 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\settings_data.dart:131:72 - require_trailing_commas
+   info - Missing a required trailing comma - lib\domain\models\settings_data.dart:133:66 - require_trailing_commas
+warning - The value of the field '_statKeys' isn't used - lib\domain\services\effect_parser.dart:23:28 - unused_field
+   info - Missing a required trailing comma - lib\domain\services\effect_parser.dart:82:102 - require_trailing_commas
+warning - The receiver can't be null, so the null-aware operator '...?' is unnecessary - lib\domain\services\parent_roller.dart:155:15 - invalid_null_aware_operator
+   info - Missing a required trailing comma - lib\presentation\providers\game_providers.dart:84:67 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\providers\game_providers.dart:88:61 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\providers\game_providers.dart:92:61 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\providers\game_providers.dart:96:66 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:193:22 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:203:22 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:282:61 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:284:61 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:286:61 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:290:90 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:299:86 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:312:89 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:341:18 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:493:20 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:497:64 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:497:65 - require_trailing_commas
+warning - A value for optional parameter 'selected' isn't ever given - lib\presentation\screens\character_create_screen.dart:523:10 - unused_element_parameter
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:551:18 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\screens\character_create_screen.dart:557:79 - require_trailing_commas
+warning - Unused import: '../../core/constants/enums.dart' - lib\presentation\widgets\action_panel.dart:8:8 - unused_import
+   info - Missing a required trailing comma - lib\presentation\widgets\action_panel.dart:80:8 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\action_panel.dart:88:8 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\action_panel.dart:96:8 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\avatar_picker.dart:169:55 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\avatar_preview.dart:155:56 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\avatar_preview.dart:157:56 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\avatar_preview.dart:178:79 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\avatar_preview.dart:183:79 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\consent_dialog.dart:157:22 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\consent_dialog.dart:163:22 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\hud_widget.dart:155:76 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\hud_widget.dart:159:86 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\hud_widget.dart:159:87 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\hud_widget.dart:188:75 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\hud_widget.dart:194:43 - require_trailing_commas
+   info - Missing a required trailing comma - lib\presentation\widgets\hud_widget.dart:194:44 - require_trailing_commas
+   info - Missing a required trailing comma - test\economy_engine_test.dart:69:73 - require_trailing_commas
+   info - Missing a required trailing comma - test\effect_parser_test.dart:88:55 - require_trailing_commas
+   info - Use 'const' with the constructor to improve performance - test\event_resolver_test.dart:98:17 - prefer_const_constructors
+   info - Missing a required trailing comma - test\game_engine_test.dart:65:62 - require_trailing_commas
+   info - Use 'const' with the constructor to improve performance - test\game_engine_test.dart:72:17 - prefer_const_constructors
+warning - The value of the local variable 'cause' isn't used - test\integration\full_game_test.dart:35:15 - unused_local_variable
+   info - Missing a required trailing comma - test\integration\full_game_test.dart:50:44 - require_trailing_commas
+   info - The imported package 'path_provider_platform_interface' isn't a dependency of the importing package - test\integration\save_persistence_test.dart:19:8 - depend_on_referenced_packages
+   info - Use interpolation to compose strings and values - test\integration\save_persistence_test.dart:25:12 - prefer_interpolation_to_compose_strings
+   info - Use 'const' with the constructor to improve performance - test\integration\save_persistence_test.dart:45:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\integration\save_persistence_test.dart:47:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\integration\save_persistence_test.dart:83:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\integration\save_persistence_test.dart:85:20 - prefer_const_constructors
+   info - Statements in an if should be enclosed in a block - test\parent_roller_test.dart:22:24 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - test\parent_roller_test.dart:23:31 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - test\parent_roller_test.dart:24:30 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - test\parent_roller_test.dart:25:14 - curly_braces_in_flow_control_structures
+   info - Missing a required trailing comma - test\parent_roller_test.dart:54:44 - require_trailing_commas
+   info - Missing a required trailing comma - test\parent_roller_test.dart:67:39 - require_trailing_commas
+   info - Use 'const' with the constructor to improve performance - test\save_repository_test.dart:19:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\save_repository_test.dart:21:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\save_repository_test.dart:45:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\save_repository_test.dart:47:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\save_repository_test.dart:69:24 - prefer_const_constructors
+   info - Use interpolation to compose strings and values - test\save_repository_test.dart:73:24 - prefer_interpolation_to_compose_strings
+
+87 issues found. (ran in 19.2s)
+ 
+=== [8] flutter test --no-pub --reporter=compact === 
+00:00 +0: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart                                                                                           00:01 +0: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart                                                                                           00:02 +0: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart                                                                                           00:03 +0: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart                                                                                           00:04 +0: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart                                                                                           00:05 +0: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart                                                                                           00:05 +0: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 就業中の月次収支は給与＞0                                                                      00:05 +1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 就業中の月次収支は給与＞0                                                                      00:05 +1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 60歳以降は年金収入が発生                                                                      00:05 +2: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 60歳以降は年金収入が発生                                                                      00:05 +2: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 近未来時代は基本所得が25歳以降に発生                                                                00:05 +3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 近未来時代は基本所得が25歳以降に発生                                                                00:05 +3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 結婚＋子供で支出が増える                                                                       00:05 +4: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 結婚＋子供で支出が増える                                                                       00:05 +4: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 住宅ローン月次返済額の式が正しい                                                                   00:05 +5: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 住宅ローン月次返済額の式が正しい                                                                   00:05 +5: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 暗号通貨は令和以降のみ発火可能                                                                    00:05 +6: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 暗号通貨は令和以降のみ発火可能                                                                    00:06 +6: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/economy_engine_test.dart: EconomyEngine 暗号通貨は令和以降のみ発火可能                                                                    00:06 +6: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart                                                                                            00:06 +6: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 資産変動の万単位パース                                                                    00:06 +7: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 資産変動の万単位パース                                                                    00:06 +7: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 資産変動の億単位パース                                                                    00:06 +8: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 資産変動の億単位パース                                                                    00:06 +8: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 健康度の表記正規化                                                                      00:06 +9: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 健康度の表記正規化                                                                      00:06 +9: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 幸福度の表記正規化                                                                      00:06 +10: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 幸福度の表記正規化                                                                     00:06 +10: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 社会的地位の表記正規化                                                                   00:06 +11: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 社会的地位の表記正規化                                                                   00:06 +11: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 複数効果のスラッシュ区切り                                                                 00:06 +12: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 複数効果のスラッシュ区切り                                                                 00:06 +12: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 複数効果の読点区切り                                                                    00:06 +13: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 複数効果の読点区切り                                                                    00:06 +13: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse フラグ系のパース                                                                      00:06 +14: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse フラグ系のパース                                                                      00:06 +14: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 結婚フラグ                                                                         00:06 +15: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 結婚フラグ                                                                         00:06 +15: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 運次第はluck_branchフラグ                                                            00:06 +16: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 運次第はluck_branchフラグ                                                            00:06 +16: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 空文字列は空結果                                                                      00:06 +17: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 空文字列は空結果                                                                      00:06 +17: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse null は空結果                                                                     00:06 +18: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse null は空結果                                                                     00:06 +18: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse %変動はサポート外（warningsに入る）                                                        00:06 +18 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse %変動はサポート外（warningsに入る） [E]                                                 
+  Expected: <false>
+    Actual: <true>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\effect_parser_test.dart 78:7                   main.<fn>.<fn>
+  
+
+To run this test again: C:\flutter\bin\cache\dart-sdk\bin\dart.exe test C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart -p vm --plain-name "EffectParser.parse %変動はサポート外（warningsに入る）"
+00:06 +18 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse コミュ力は コミュ に正規化                                                             00:06 +19 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse コミュ力は コミュ に正規化                                                             00:06 +19 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 全結果系を1文字列でパース                                                              00:06 +20 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/effect_parser_test.dart: EffectParser.parse 全結果系を1文字列でパース                                                              00:06 +20 -1: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart                                                                                       00:06 +20 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerRate.parse 「年5%」 → 月率 約0.00417                                                        00:06 +21 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerRate.parse 「年5%」 → 月率 約0.00417                                                        00:06 +21 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerRate.parse 「月3%」 → 月率 0.03                                                            00:06 +22 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerRate.parse 「月3%」 → 月率 0.03                                                            00:06 +22 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerRate.parse 「必発」 → kind=always                                                         00:06 +23 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerRate.parse 「必発」 → kind=always                                                         00:06 +23 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerRate.parse 「条件発動」 → kind=conditional                                                  00:06 +24 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerRate.parse 「条件発動」 → kind=conditional                                                  00:06 +24 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerCondition.parse 「30歳〜」 → minAge=30                                                    00:06 +25 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerCondition.parse 「30歳〜」 → minAge=30                                                    00:06 +25 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerCondition.parse 「20歳〜25歳」 → range                                                     00:06 +26 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerCondition.parse 「20歳〜25歳」 → range                                                     00:06 +26 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerCondition.parse matchesAge は範囲チェック                                                    00:06 +27 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: TriggerCondition.parse matchesAge は範囲チェック                                                    00:06 +27 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver 時代外のイベントは候補から除外                                                                00:06 +28 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver 時代外のイベントは候補から除外                                                                00:06 +28 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver 年齢条件外は除外                                                                       00:06 +29 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver 年齢条件外は除外                                                                       00:06 +29 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver 必発イベントは確実に発火                                                                   00:06 +30 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver 必発イベントは確実に発火                                                                   00:06 +30 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver クールダウン後は再発火可能                                                                  00:06 +31 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver クールダウン後は再発火可能                                                                  00:06 +31 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver 連鎖イベントは自然発火しない                                                                 00:06 +32 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/event_resolver_test.dart: EventResolver 連鎖イベントは自然発火しない                                                                 00:06 +32 -1: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart                                                                                          00:06 +32 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 令和・健康度50・ニュートラル → 84歳                                               00:06 +33 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 令和・健康度50・ニュートラル → 84歳                                               00:06 +33 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 健康度100 → +15歳補正で 99歳                                                00:06 +34 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 健康度100 → +15歳補正で 99歳                                                00:06 +34 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 健康度0 → -15歳補正で 69歳                                                  00:06 +35 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 健康度0 → -15歳補正で 69歳                                                  00:06 +35 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 人間性+50 → +5歳補正                                                      00:06 +36 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 人間性+50 → +5歳補正                                                      00:06 +36 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 近未来＋健康度100＋不老 → 上限130                                               00:06 +37 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 近未来＋健康度100＋不老 → 上限130                                               00:06 +37 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 期待寿命の上限は通常115、不老で130                                                00:06 +38 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.expectedLifespan 期待寿命の上限は通常115、不老で130                                                00:06 +38 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.advanceTurn 1ターン進めると age+1, yearIndex+1                                              00:06 +39 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.advanceTurn 1ターン進めると age+1, yearIndex+1                                              00:06 +39 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.advanceTurn 健康度0なら死亡判定が発火                                                            00:06 +40 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.advanceTurn 健康度0なら死亡判定が発火                                                            00:06 +40 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.advanceTurn 100歳超なら強制死亡（不老なし）                                                        00:06 +41 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.advanceTurn 100歳超なら強制死亡（不老なし）                                                        00:06 +41 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.advanceTurn アクション効果で能力が上がる                                                           00:06 +42 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.advanceTurn アクション効果で能力が上がる                                                           00:06 +42 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.adjustedLuck 人間性+50 で実効運+10                                                          00:06 +43 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.adjustedLuck 人間性+50 で実効運+10                                                          00:06 +43 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.adjustedLuck 人間性0 で補正なし                                                              00:06 +44 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.adjustedLuck 人間性0 で補正なし                                                              00:07 +44 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/game_engine_test.dart: GameEngine.adjustedLuck 人間性0 で補正なし                                                              00:07 +44 -1: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/full_game_test.dart                                                                                00:07 +44 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/full_game_test.dart: Full game flow キャラ生成 → 80年プレイ → 死亡判定が起きる                                              00:07 +45 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/full_game_test.dart: Full game flow キャラ生成 → 80年プレイ → 死亡判定が起きる                                              00:07 +45 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/full_game_test.dart: Full game flow 親ガチャ → 強み連動でステータス分布                                                    00:07 +46 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/full_game_test.dart: Full game flow 親ガチャ → 強み連動でステータス分布                                                    00:07 +46 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/full_game_test.dart: Full game flow 時代ごとの基本期待寿命がGDD準拠                                                      00:07 +47 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/full_game_test.dart: Full game flow 時代ごとの基本期待寿命がGDD準拠                                                      00:07 +47 -1: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart                                                                         00:07 +47 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart: (setUpAll)                                                                     00:07 +47 -1: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart: SaveRepository round trip セーブ → ロードで完全一致                                       00:07 +47 -2: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart: SaveRepository round trip セーブ → ロードで完全一致 [E]                                   
+  PathNotFoundException: Cannot open file, path = 'C:\Users\81903\AppData\Local\Temp/capitalism_test_1778190054563/save.json' (OS Error: 指定されたパスが見つかりません。, errno = 3)
+  dart:io                                                                      _File.writeAsString
+  package:capitalism_game/data/repositories/save_repository_mobile.dart 63:20  MobileSaveRepository.save
+  ===== asynchronous gap ===========================
+  dart:async                                                                   _CustomZone.registerUnaryCallback
+  package:capitalism_game/data/repositories/save_repository_mobile.dart 49:22  MobileSaveRepository.save
+  test\integration\save_persistence_test.dart 67:18                            main.<fn>.<fn>
+  
+
+To run this test again: C:\flutter\bin\cache\dart-sdk\bin\dart.exe test C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart -p vm --plain-name "SaveRepository round trip セーブ → ロードで完全一致"
+00:07 +47 -2: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart: SaveRepository round trip export → import で完全復元                                00:07 +47 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart: SaveRepository round trip export → import で完全復元 [E]                            
+  PathNotFoundException: Cannot open file, path = 'C:\Users\81903\AppData\Local\Temp/capitalism_test_1778190054632/save.json' (OS Error: 指定されたパスが見つかりません。, errno = 3)
+  dart:io                                                                      _File.writeAsString
+  package:capitalism_game/data/repositories/save_repository_mobile.dart 63:20  MobileSaveRepository.save
+  ===== asynchronous gap ===========================
+  dart:async                                                                   _CustomZone.registerUnaryCallback
+  package:capitalism_game/data/repositories/save_repository_mobile.dart 49:22  MobileSaveRepository.save
+  test\integration\save_persistence_test.dart 97:18                            main.<fn>.<fn>
+  
+
+To run this test again: C:\flutter\bin\cache\dart-sdk\bin\dart.exe test C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart -p vm --plain-name "SaveRepository round trip export → import で完全復元"
+00:07 +47 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart: SaveRepository round trip 破損データはバックアップから復元される                                  00:07 +48 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart: SaveRepository round trip 破損データはバックアップから復元される                                  00:07 +48 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/integration/save_persistence_test.dart: (tearDownAll)                                                                  00:07 +48 -3: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart                                                                                        00:07 +48 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller 1回引いて結果が返る                                                                       00:07 +49 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller 1回引いて結果が返る                                                                       00:07 +49 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller レアリティ分布：1000回で各階層が想定範囲                                                           00:08 +49 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller レアリティ分布：1000回で各階層が想定範囲                                                           00:08 +50 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller レアリティ分布：1000回で各階層が想定範囲                                                           00:08 +50 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller 時代別の初期資産係数：昭和は令和より少ない（同レア）                                                       00:08 +51 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller 時代別の初期資産係数：昭和は令和より少ない（同レア）                                                       00:08 +51 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller 特殊レアのいずれかは富裕層・極貧・養子・帰国子女                                                         00:08 +52 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/parent_roller_test.dart: ParentRoller 特殊レアのいずれかは富裕層・極貧・養子・帰国子女                                                         00:08 +52 -3: loading C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart                                                                                      00:08 +52 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart: SaveCodec plain export/import round-trip                                                    00:08 +53 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart: SaveCodec plain export/import round-trip                                                    00:08 +53 -3: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart: SaveCodec encoded round-trip with checksum                                                  00:08 +53 -4: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart: SaveCodec encoded round-trip with checksum [E]                                              
+  Expected: not null
+    Actual: <null>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\save_repository_test.dart 62:7                 main.<fn>.<fn>
+  
+
+To run this test again: C:\flutter\bin\cache\dart-sdk\bin\dart.exe test C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart -p vm --plain-name "SaveCodec encoded round-trip with checksum"
+00:08 +53 -4: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart: SaveCodec decode returns null on tampered data                                              00:08 +54 -4: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart: SaveCodec decode returns null on tampered data                                              00:08 +54 -4: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart: SaveCodec schema migration is no-op for current version                                     00:08 +55 -4: C:/Users/81903/Documents/Claude/Projects/資本主義ゲーム/app_flutter/test/save_repository_test.dart: SaveCodec schema migration is no-op for current version                                     00:08 +55 -4: Some tests failed.                                                                                                                                                                       
+ 
+=== END 2026/05/08  6:40:55.22 === 

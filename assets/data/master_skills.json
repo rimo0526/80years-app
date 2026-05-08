@@ -1,0 +1,22 @@
+{
+  "_comment": "GDD §6.2.3 スキルツリー（70ノード）。Phase 1 で全ノードを定義。現状は構造サンプル。",
+  "version": 1,
+  "skills": [
+    {
+      "id": "BRAIN_T1_01",
+      "tree": "頭脳",
+      "tier": 1,
+      "name": "読書習慣",
+      "description": "読書時に頭脳経験値+10%、知識系イベント発生率+5%",
+      "cost_points": 1,
+      "prerequisites": {
+        "ability_min": {"頭脳": 20},
+        "node_required": []
+      },
+      "effects": [
+        {"type": "passive_buff", "target": "頭脳経験値", "value": 0.10},
+        {"type": "event_rate", "target": "知識系", "value": 0.05}
+      ]
+    }
+  ]
+}

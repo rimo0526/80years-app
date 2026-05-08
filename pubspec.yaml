@@ -1,0 +1,83 @@
+name: capitalism_game
+description: "資本主義ゲーム ― 人生シミュレーション・ローグライク"
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 状態管理（GDD §17.1.2）
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # 画面遷移（GDD §17.1.2）
+  go_router: ^14.2.0
+
+  # 永続化（Web=IndexedDB / Mobile=ファイル）
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.3
+  shared_preferences: ^2.2.3
+
+  # JSON シリアライズ
+  json_annotation: ^4.9.0
+
+  # 国際化準備（GDD §17.6 多言語対応の準備）
+  intl: ^0.19.0
+
+  # ユーティリティ
+  collection: ^1.18.0
+  crypto: ^3.0.3   # SHA-256（GDD §18.5 改ざん防止）
+
+  # Cupertino アイコン（タイトルなどのデフォルト）
+  cupertino_icons: ^1.0.8
+
+  # === Phase 1〜2 で有効化（実機バインディングは Phase 2） ===
+  # 注：以下のパッケージは Web ビルドではダミー実装にフォールバックする。
+  # 実機 Android / iOS で動作するのは flutter run -d <device> 時のみ。
+  google_mobile_ads: ^5.1.0       # AdMob（モバイル広告 GDD §15.1.4）
+  firebase_core: ^3.1.1
+  firebase_analytics: ^11.0.1     # GA4（GDD §17.1.2）
+  firebase_crashlytics: ^4.0.1    # クラッシュレポート
+  share_plus: ^9.0.0              # SNS共有（GDD §11.4）
+  url_launcher: ^6.3.0            # 外部リンク（プライバシーポリシー等）
+  # qr_flutter: ^4.1.0            # QRコード（セーブエクスポート GDD §17.3.3 - Phase 2）
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  # path_provider のテスト用 mock 注入
+  path_provider_platform_interface: ^2.1.0
+
+  # コード生成
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.4.0
+  custom_lint: ^0.6.4
+  riverpod_lint: ^2.3.10
+
+flutter:
+  uses-material-design: true
+
+  # GDD §13 アート方針：Hiragino Kaku Gothic 系を本番で同梱予定
+  # フォントは Phase 1 で追加（現状はシステムフォント）
+  # fonts:
+  #   - family: NotoSansJP
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansJP-Regular.ttf
+  #       - asset: assets/fonts/NotoSansJP-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/NotoSansJP-Bold.ttf
+  #         weight: 700
+
+  assets:
+    - assets/data/
+    # - assets/images/
+    # - assets/sounds/

@@ -1,0 +1,15 @@
+=== SCOOP === 
+情報: 与えられたパターンのファイルが見つかりませんでした。
+ 
+=== CHOCO === 
+C:\ProgramData\chocolatey\bin\choco.exe
+ 
+=== STANDARD LOCATIONS === 
+ 
+=== SEARCH C: === 
+(limited to C:\Users\81903 to avoid long search) 
+ 
+=== PATH (one entry per line) === 
+C:\Python314\Scripts\;C:\Python314\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\81903\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\81903\AppData\Local\Programs\Python\Python312\;C:\Users\81903\AppData\Local\Programs\Python\Launcher\;c:\cursor\resources\app\codeBin;C:\Users\81903\AppData\Local\Microsoft\WindowsApps;C:\Users\81903\AppData\Local\GitHubDesktop\bin;C:\Users\81903\AppData\Roaming\npm 
+ 
+=== DONE === 

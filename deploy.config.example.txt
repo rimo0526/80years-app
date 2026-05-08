@@ -1,0 +1,8 @@
+# deploy.config.txt のテンプレート
+# このファイルを deploy.config.txt にリネームして実値を書く
+#
+# GitHub リポジトリの URL（HTTPS）
+GITHUB_REPO=https://github.com/USERNAME/80years-app.git
+#
+# このデプロイのコミットメッセージ
+COMMIT_MSG=Deploy v0.1.0 - Phase 1 GA

@@ -1,0 +1,85 @@
+# ============================================================
+# Flutter 標準
+# ============================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# 自動生成ファイル
+*.g.dart
+*.freezed.dart
+*.config.dart
+*.gr.dart
+
+# プラットフォーム別ビルド
+android/.gradle/
+android/app/release/
+android/app/debug/
+android/local.properties
+android/.idea/
+android/captures/
+android/.classpath
+android/.project
+android/.settings/
+ios/Pods/
+ios/Podfile.lock
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/.last_build_id
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+macos/Pods/
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Web ビルド成果物
+web/main.dart.js*
+web/flutter_service_worker.js
+web/version.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# プロジェクト固有
+# ============================================================
+.env
+.env.local
+.env.*.local
+*.log
+coverage/
+test_results/
+firebase-debug.log
+firebase_options*.dart  # Phase 2 以降で生成、機密情報含むため
+
+# AI 楽曲生成の中間ファイル
+*.suno
+*.udio
+sound_drafts/
+
+# ストア提出用一時ファイル
+release_artifacts/
+*.aab
+*.ipa
+
+# セーブデータの開発時バックアップ
+save.json
+save.bak.json
+local_save_dump/

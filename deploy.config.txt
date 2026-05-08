@@ -1,0 +1,2 @@
+GITHUB_REPO=https://github.com/rimo0526/80years-app.git
+COMMIT_MSG=Deploy v0.1.0 - Phase 1 GA initial

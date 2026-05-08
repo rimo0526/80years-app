@@ -1,0 +1,5705 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-05-08T10:25:22.438707+09:00",
+  "source_xlsx_version": "v2.1",
+  "events": [
+    {
+      "id": "L-001",
+      "sheet": "ライフイベント",
+      "category": "健康・病気",
+      "name": "健康診断で異常値",
+      "trigger_condition": "30歳〜 / 体力<50で発生率↑",
+      "trigger_rate": "年5%",
+      "description": "糖尿病予備軍と診断された。放置すると寿命に影響する。",
+      "choices": [
+        {
+          "label": "人間ドック受診",
+          "effect_text": "資産-30万 / 健康+15"
+        },
+        {
+          "label": "食事改善で対処",
+          "effect_text": "幸福-2 / 健康+8"
+        },
+        {
+          "label": "無視する",
+          "effect_text": "健康-10 / 重病確率↑"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-002",
+      "sheet": "ライフイベント",
+      "category": "健康・病気",
+      "name": "がん告知",
+      "trigger_condition": "40歳〜 / 健康<50で発生率↑",
+      "trigger_rate": "年2%",
+      "description": "がんが発見された。治療法を選ぶ必要がある。",
+      "choices": [
+        {
+          "label": "先進医療を受ける",
+          "effect_text": "資産-1000万 / 生存率高"
+        },
+        {
+          "label": "標準治療を受ける",
+          "effect_text": "資産-300万 / 運次第で生存"
+        },
+        {
+          "label": "民間療法に頼る",
+          "effect_text": "資産-50万 / ほぼ死亡"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-003",
+      "sheet": "ライフイベント",
+      "category": "健康・病気",
+      "name": "骨折で入院",
+      "trigger_condition": "運動系スキル取得時に低確率",
+      "trigger_rate": "年3%",
+      "description": "事故で骨折してしまった。",
+      "choices": [
+        {
+          "label": "個室入院",
+          "effect_text": "資産-100万 / 幸福+5"
+        },
+        {
+          "label": "大部屋",
+          "effect_text": "資産-30万 / 幸福-3"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-004",
+      "sheet": "ライフイベント",
+      "category": "健康・病気",
+      "name": "うつ病発症",
+      "trigger_condition": "幸福<30 & 仕事重視3年連続",
+      "trigger_rate": "条件発動",
+      "description": "心身ともに限界。働けなくなった。",
+      "choices": [
+        {
+          "label": "休職して回復",
+          "effect_text": "収入0 / 2年で回復"
+        },
+        {
+          "label": "通院しつつ働く",
+          "effect_text": "効率半減 / 長期化リスク"
+        },
+        {
+          "label": "退職して旅へ",
+          "effect_text": "資産消費 / 人生リセット"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-005",
+      "sheet": "ライフイベント",
+      "category": "健康・病気",
+      "name": "親の介護必要に",
+      "trigger_condition": "40歳〜 / ランダム",
+      "trigger_rate": "年4%",
+      "description": "親が要介護になった。",
+      "choices": [
+        {
+          "label": "在宅介護する",
+          "effect_text": "仕事支障 / 人間性+15"
+        },
+        {
+          "label": "施設入居",
+          "effect_text": "毎月-15万 / 罪悪感"
+        },
+        {
+          "label": "兄弟に丸投げ",
+          "effect_text": "人間性-20 / 関係悪化"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-006",
+      "sheet": "ライフイベント",
+      "category": "仕事・キャリア",
+      "name": "ヘッドハンティング",
+      "trigger_condition": "コミュ70+ or 頭脳70+",
+      "trigger_rate": "年8%",
+      "description": "他社からスカウトが来た。",
+      "choices": [
+        {
+          "label": "受ける（転職）",
+          "effect_text": "年収+30% / 人脈リセット"
+        },
+        {
+          "label": "断る",
+          "effect_text": "現職評価+"
+        },
+        {
+          "label": "二股交渉",
+          "effect_text": "運次第で両方失う"
+        }
+      ],
+      "applicable_eras": [
+        "平成",
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-007",
+      "sheet": "ライフイベント",
+      "category": "仕事・キャリア",
+      "name": "会社が買収された",
+      "trigger_condition": "30歳〜 ランダム",
+      "trigger_rate": "年3%",
+      "description": "勤務先が買収された。",
+      "choices": [
+        {
+          "label": "残留する",
+          "effect_text": "待遇微減"
+        },
+        {
+          "label": "退職金もらって辞める",
+          "effect_text": "+500万 / 無職"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-008",
+      "sheet": "ライフイベント",
+      "category": "仕事・キャリア",
+      "name": "ブラック企業認定",
+      "trigger_condition": "中小企業勤務で高確率",
+      "trigger_rate": "条件発動",
+      "description": "勤務先がブラック企業だった。",
+      "choices": [
+        {
+          "label": "我慢して耐える",
+          "effect_text": "健康-30 / 年収+"
+        },
+        {
+          "label": "労基に通報",
+          "effect_text": "人間関係- / 人間性+"
+        },
+        {
+          "label": "即退職",
+          "effect_text": "無職 / 自由時間+"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-009",
+      "sheet": "ライフイベント",
+      "category": "仕事・キャリア",
+      "name": "厳しい上司",
+      "trigger_condition": "ランダム発生",
+      "trigger_rate": "年6%",
+      "description": "上司から厳しい指導を受けている。",
+      "choices": [
+        {
+          "label": "耐える",
+          "effect_text": "メンタル- / 評価+"
+        },
+        {
+          "label": "同期と団結",
+          "effect_text": "コミュ+ / 解決可"
+        },
+        {
+          "label": "上層部に相談",
+          "effect_text": "運次第で改善 or 軋轢"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-010",
+      "sheet": "ライフイベント",
+      "category": "仕事・キャリア",
+      "name": "海外赴任打診",
+      "trigger_condition": "大企業 / コミュ60+",
+      "trigger_rate": "年4%",
+      "description": "海外赴任のチャンスが来た。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "語学+ / 家族と離別"
+        },
+        {
+          "label": "断る",
+          "effect_text": "出世コース外れる"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-011",
+      "sheet": "ライフイベント",
+      "category": "恋愛・結婚",
+      "name": "マッチングアプリで運命",
+      "trigger_condition": "独身 / 容姿orコミュ依存",
+      "trigger_rate": "月3%",
+      "description": "アプリで気になる相手を見つけた。",
+      "choices": [
+        {
+          "label": "即会う",
+          "effect_text": "運次第で当たり外れ"
+        },
+        {
+          "label": "やり取り重ねる",
+          "effect_text": "時間消費 / 安定"
+        },
+        {
+          "label": "プレミア課金",
+          "effect_text": "出会い率↑ / 月-1万"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-012",
+      "sheet": "ライフイベント",
+      "category": "恋愛・結婚",
+      "name": "配偶者の浮気発覚",
+      "trigger_condition": "結婚後 / 相手人間性低で↑",
+      "trigger_rate": "年5%",
+      "description": "配偶者の浮気が発覚した。",
+      "choices": [
+        {
+          "label": "離婚",
+          "effect_text": "慰謝料+ / 自由"
+        },
+        {
+          "label": "復縁",
+          "effect_text": "信頼- / 関係続行"
+        },
+        {
+          "label": "報復で自分も浮気",
+          "effect_text": "人間性-30 / 二股化"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "離婚マスター",
+      "chain_from": null,
+      "priority": 40
+    },
+    {
+      "id": "L-013",
+      "sheet": "ライフイベント",
+      "category": "恋愛・結婚",
+      "name": "義理の親と同居問題",
+      "trigger_condition": "結婚後",
+      "trigger_rate": "年5%",
+      "description": "義理の親と同居の話が出ている。",
+      "choices": [
+        {
+          "label": "同居する",
+          "effect_text": "家賃浮く / ストレス+"
+        },
+        {
+          "label": "拒否する",
+          "effect_text": "配偶者と関係悪化"
+        },
+        {
+          "label": "二世帯住宅建てる",
+          "effect_text": "資産-3000万 / 解決"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-014",
+      "sheet": "ライフイベント",
+      "category": "恋愛・結婚",
+      "name": "美男美女に告白される",
+      "trigger_condition": "容姿70+ & 運高",
+      "trigger_rate": "年2%",
+      "description": "見た目抜群の人から告白された。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "玉の輿チャンス"
+        },
+        {
+          "label": "断る",
+          "effect_text": "既存の関係保護"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-015",
+      "sheet": "ライフイベント",
+      "category": "家族",
+      "name": "子供のグレ",
+      "trigger_condition": "子供15歳〜 / 子育て放置",
+      "trigger_rate": "年8%",
+      "description": "子供がグレ始めた。",
+      "choices": [
+        {
+          "label": "厳しく叱る",
+          "effect_text": "さらに反抗"
+        },
+        {
+          "label": "寄り添う",
+          "effect_text": "時間消費 / 人間性+"
+        },
+        {
+          "label": "諦める",
+          "effect_text": "最悪の結果"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-016",
+      "sheet": "ライフイベント",
+      "category": "家族",
+      "name": "子供の私立受験",
+      "trigger_condition": "子供10歳〜",
+      "trigger_rate": "年1回",
+      "description": "中学受験のシーズン。",
+      "choices": [
+        {
+          "label": "中学受験コース",
+          "effect_text": "月-10万 / 頭脳期待"
+        },
+        {
+          "label": "公立で伸び伸び",
+          "effect_text": "コスト無 / 運次第"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-017",
+      "sheet": "ライフイベント",
+      "category": "家族",
+      "name": "子供のいじめ問題",
+      "trigger_condition": "子供あり",
+      "trigger_rate": "年3%",
+      "description": "子供が学校でいじめに遭っている。",
+      "choices": [
+        {
+          "label": "学校に乗り込む",
+          "effect_text": "解決 or 炎上"
+        },
+        {
+          "label": "転校させる",
+          "effect_text": "引越し費 / 解決"
+        },
+        {
+          "label": "様子を見る",
+          "effect_text": "最悪化リスク"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-018",
+      "sheet": "ライフイベント",
+      "category": "家族",
+      "name": "子供が動画配信者になりたい",
+      "trigger_condition": "令和以降 / 子供あり",
+      "trigger_rate": "年5%",
+      "description": "子供が「動画配信者になりたい」と言い出した。",
+      "choices": [
+        {
+          "label": "応援する",
+          "effect_text": "投資 / 運次第で成功"
+        },
+        {
+          "label": "反対する",
+          "effect_text": "関係悪化"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-019",
+      "sheet": "ライフイベント",
+      "category": "家族",
+      "name": "子供の不登校",
+      "trigger_condition": "子供あり",
+      "trigger_rate": "年4%",
+      "description": "子供が不登校になった。",
+      "choices": [
+        {
+          "label": "カウンセラー",
+          "effect_text": "資産-50万 / 改善"
+        },
+        {
+          "label": "フリースクール",
+          "effect_text": "毎月-3万 / 居場所"
+        },
+        {
+          "label": "放置",
+          "effect_text": "最悪 / 引きこもり化"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-020",
+      "sheet": "ライフイベント",
+      "category": "投資・金銭",
+      "name": "友人から仮想通貨の話",
+      "trigger_condition": "2017, 2021に発生率高",
+      "trigger_rate": "ランダム",
+      "description": "友人から仮想通貨の話を持ちかけられた。",
+      "choices": [
+        {
+          "label": "全力投資",
+          "effect_text": "10倍 or 半減"
+        },
+        {
+          "label": "様子見",
+          "effect_text": "後悔 or セーフ"
+        },
+        {
+          "label": "スルー",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-021",
+      "sheet": "ライフイベント",
+      "category": "投資・金銭",
+      "name": "株式IPO抽選当選",
+      "trigger_condition": "証券口座開設時",
+      "trigger_rate": "年3%",
+      "description": "IPOの抽選に当選した。",
+      "choices": [
+        {
+          "label": "全額購入",
+          "effect_text": "爆益 or 凍結"
+        },
+        {
+          "label": "一部だけ",
+          "effect_text": "堅実"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-022",
+      "sheet": "ライフイベント",
+      "category": "投資・金銭",
+      "name": "不動産投資の誘い",
+      "trigger_condition": "30歳〜 / 資産+",
+      "trigger_rate": "年4%",
+      "description": "不動産投資を勧められた。",
+      "choices": [
+        {
+          "label": "ワンルーム",
+          "effect_text": "毎月家賃 / 空室リスク"
+        },
+        {
+          "label": "区分マンション",
+          "effect_text": "中リスク中リターン"
+        },
+        {
+          "label": "一棟買い",
+          "effect_text": "資産-1億 / 大富豪チャンス"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-023",
+      "sheet": "ライフイベント",
+      "category": "投資・金銭",
+      "name": "宝くじ当選",
+      "trigger_condition": "宝くじ購入時 / 運高",
+      "trigger_rate": "条件発動",
+      "description": "宝くじが当たった！",
+      "choices": [
+        {
+          "label": "1万円",
+          "effect_text": "ささやか"
+        },
+        {
+          "label": "100万円",
+          "effect_text": "中規模"
+        },
+        {
+          "label": "1億円",
+          "effect_text": "人生変わる / 家族関係注意"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-024",
+      "sheet": "ライフイベント",
+      "category": "投資・金銭",
+      "name": "地方自治体寄付制度",
+      "trigger_condition": "年収高め",
+      "trigger_rate": "年1回",
+      "description": "地方自治体寄付制度のシーズン。",
+      "choices": [
+        {
+          "label": "高級肉ばかり",
+          "effect_text": "幸福+ / 節約"
+        },
+        {
+          "label": "寄付重視",
+          "effect_text": "人間性+"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-025",
+      "sheet": "ライフイベント",
+      "category": "詐欺・トラブル",
+      "name": "電話詐欺の電話",
+      "trigger_condition": "60歳〜 / 運低で↑",
+      "trigger_rate": "年2%",
+      "description": "電話詐欺の電話。",
+      "choices": [
+        {
+          "label": "信じて振込",
+          "effect_text": "資産-100〜500万"
+        },
+        {
+          "label": "警察に通報",
+          "effect_text": "人間性+ / 時間消費"
+        },
+        {
+          "label": "即切る",
+          "effect_text": "無事"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-026",
+      "sheet": "ライフイベント",
+      "category": "詐欺・トラブル",
+      "name": "街で財布拾う",
+      "trigger_condition": "ランダム",
+      "trigger_rate": "年1%",
+      "description": "道端で財布を拾った。",
+      "choices": [
+        {
+          "label": "警察に届ける",
+          "effect_text": "人間性+15 / お礼+1万"
+        },
+        {
+          "label": "中身だけ抜く",
+          "effect_text": "人間性-25 / +5万"
+        },
+        {
+          "label": "無視",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-027",
+      "sheet": "ライフイベント",
+      "category": "詐欺・トラブル",
+      "name": "痴漢冤罪疑い",
+      "trigger_condition": "電車通勤 / 運最低",
+      "trigger_rate": "年0.5%",
+      "description": "痴漢で疑われた。",
+      "choices": [
+        {
+          "label": "駅員に証言頼む",
+          "effect_text": "運次第"
+        },
+        {
+          "label": "走って逃げる",
+          "effect_text": "最悪化"
+        },
+        {
+          "label": "弁護士呼ぶ",
+          "effect_text": "資産-100万 / 解決"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-028",
+      "sheet": "ライフイベント",
+      "category": "詐欺・トラブル",
+      "name": "危ないバイト誘い",
+      "trigger_condition": "コミュ系 / 若年期",
+      "trigger_rate": "年2%",
+      "description": "危ないバイトに誘われた。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "+50万 / 異才解放 / 人間性-30"
+        },
+        {
+          "label": "通報する",
+          "effect_text": "異才の別ルート解放"
+        },
+        {
+          "label": "スルー",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "闇渡り",
+      "chain_from": null,
+      "priority": 40
+    },
+    {
+      "id": "L-029",
+      "sheet": "ライフイベント",
+      "category": "詐欺・トラブル",
+      "name": "金銭の保証人を頼まれる",
+      "trigger_condition": "兄弟・親戚から",
+      "trigger_rate": "年3%",
+      "description": "親戚から、銀行借入の保証人になってほしいと頼まれた。",
+      "choices": [
+        {
+          "label": "引き受ける",
+          "effect_text": "運次第で破産リスク"
+        },
+        {
+          "label": "断る",
+          "effect_text": "関係悪化"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-030",
+      "sheet": "ライフイベント",
+      "category": "宗教・運",
+      "name": "おみくじで大凶",
+      "trigger_condition": "神社参拝時",
+      "trigger_rate": "年5%",
+      "description": "初詣で大凶を引いた。",
+      "choices": [
+        {
+          "label": "対策祈祷",
+          "effect_text": "資産-3万 / 運回復"
+        },
+        {
+          "label": "気にしない",
+          "effect_text": "運-5 / 連鎖"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-031",
+      "sheet": "ライフイベント",
+      "category": "宗教・運",
+      "name": "占い師のススメで散財",
+      "trigger_condition": "センス低 / 幸福低",
+      "trigger_rate": "年2%",
+      "description": "占い師から開運グッズを勧められた。",
+      "choices": [
+        {
+          "label": "買いまくる",
+          "effect_text": "資産-50万 / 運+5"
+        },
+        {
+          "label": "我に返る",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-032",
+      "sheet": "ライフイベント",
+      "category": "宗教・運",
+      "name": "新興宗教の勧誘",
+      "trigger_condition": "人間性高 or 幸福低",
+      "trigger_rate": "年3%",
+      "description": "新興宗教に勧誘された。",
+      "choices": [
+        {
+          "label": "入信",
+          "effect_text": "人脈+ / 流出 or 大成功"
+        },
+        {
+          "label": "興味本位で1回",
+          "effect_text": "情報収集 / 運+"
+        },
+        {
+          "label": "断る",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-033",
+      "sheet": "ライフイベント",
+      "category": "宗教・運",
+      "name": "出家のお誘い",
+      "trigger_condition": "中年期 / 幸福低",
+      "trigger_rate": "条件発動",
+      "description": "出家の誘いが来た。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "資産0 / 運MAX / 特殊END"
+        },
+        {
+          "label": "断る",
+          "effect_text": "普通の人生継続"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "悟り",
+      "chain_from": null,
+      "priority": 40
+    },
+    {
+      "id": "L-034",
+      "sheet": "ライフイベント",
+      "category": "趣味・遊び",
+      "name": "推し活開始",
+      "trigger_condition": "センス+ / 幸福低で↑",
+      "trigger_rate": "年4%",
+      "description": "ハマれる推しを見つけた。",
+      "choices": [
+        {
+          "label": "ガチ勢",
+          "effect_text": "月-10万 / 幸福+30"
+        },
+        {
+          "label": "ライト",
+          "effect_text": "コスパ良"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-035",
+      "sheet": "ライフイベント",
+      "category": "趣味・遊び",
+      "name": "ゴルフコンペ誘い",
+      "trigger_condition": "30歳〜 / コミュ高",
+      "trigger_rate": "年5%",
+      "description": "ゴルフコンペに誘われた。",
+      "choices": [
+        {
+          "label": "参加",
+          "effect_text": "人脈+ / 道具代"
+        },
+        {
+          "label": "断る",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-036",
+      "sheet": "ライフイベント",
+      "category": "趣味・遊び",
+      "name": "ペット飼い始める",
+      "trigger_condition": "ランダム",
+      "trigger_rate": "年2%",
+      "description": "ペットを飼いたくなった。",
+      "choices": [
+        {
+          "label": "犬",
+          "effect_text": "毎月-2万 / 幸福+20"
+        },
+        {
+          "label": "猫",
+          "effect_text": "毎月-1万 / 幸福+15"
+        },
+        {
+          "label": "エキゾチック",
+          "effect_text": "リスク高 / SNS映え"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-037",
+      "sheet": "ライフイベント",
+      "category": "老年期",
+      "name": "早期退職募集",
+      "trigger_condition": "55歳〜 / 大企業",
+      "trigger_rate": "年1%",
+      "description": "早期退職募集が出た。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "退職金+ / 自由"
+        },
+        {
+          "label": "断る",
+          "effect_text": "社内評価+"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-038",
+      "sheet": "ライフイベント",
+      "category": "老年期",
+      "name": "孫が生まれる",
+      "trigger_condition": "子持ち / 50歳〜",
+      "trigger_rate": "条件発動",
+      "description": "孫が生まれた！",
+      "choices": [
+        {
+          "label": "溺愛",
+          "effect_text": "教育費援助で資産流出"
+        },
+        {
+          "label": "適度に",
+          "effect_text": "幸福+"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-039",
+      "sheet": "ライフイベント",
+      "category": "老年期",
+      "name": "断捨離か終活か",
+      "trigger_condition": "60歳〜",
+      "trigger_rate": "年1回",
+      "description": "終活の時期だ。",
+      "choices": [
+        {
+          "label": "終活する",
+          "effect_text": "家族関係+"
+        },
+        {
+          "label": "物欲継続",
+          "effect_text": "幸福+ / 家族困る"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-040",
+      "sheet": "ライフイベント",
+      "category": "老年期",
+      "name": "認知症の初期症状",
+      "trigger_condition": "70歳〜",
+      "trigger_rate": "年5%",
+      "description": "もの忘れが激しくなってきた。",
+      "choices": [
+        {
+          "label": "早期治療",
+          "effect_text": "資産-50万 / 進行抑制"
+        },
+        {
+          "label": "気のせいと無視",
+          "effect_text": "進行 / 家族負担"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-041",
+      "sheet": "ライフイベント",
+      "category": "老年期",
+      "name": "孤独死リスク",
+      "trigger_condition": "独身 / 幸福低 / 80歳〜",
+      "trigger_rate": "条件発動",
+      "description": "孤独死が現実味を帯びてきた。",
+      "choices": [
+        {
+          "label": "見守りサービス",
+          "effect_text": "毎月-1万 / 安心"
+        },
+        {
+          "label": "施設入居",
+          "effect_text": "資産流出 / 人脈+"
+        },
+        {
+          "label": "そのまま",
+          "effect_text": "孤独死END確率↑"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "天涯孤独",
+      "chain_from": null,
+      "priority": 40
+    },
+    {
+      "id": "L-042",
+      "sheet": "ライフイベント",
+      "category": "特殊",
+      "name": "整形手術",
+      "trigger_condition": "容姿低 / 30歳〜",
+      "trigger_rate": "任意",
+      "description": "美容整形を考えている。",
+      "choices": [
+        {
+          "label": "プチ整形",
+          "effect_text": "資産-50万 / 容姿+10"
+        },
+        {
+          "label": "本格整形",
+          "effect_text": "資産-300万 / 容姿+30 / 運次第"
+        },
+        {
+          "label": "やめておく",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-043",
+      "sheet": "ライフイベント",
+      "category": "特殊",
+      "name": "アイデンティティの告白",
+      "trigger_condition": "ランダム / 時代依存",
+      "trigger_rate": "条件発動",
+      "description": "自分らしく生きるかどうか、岐路に立った。時代によって周囲の反応が変わる。",
+      "choices": [
+        {
+          "label": "公表して生きる",
+          "effect_text": "時代次第で社会的地位±10〜+10、人間性+5"
+        },
+        {
+          "label": "心の中だけに留める",
+          "effect_text": "幸福度-3が継続"
+        },
+        {
+          "label": "信頼できる人だけに伝える",
+          "effect_text": "コミュ+5、幸福度+2"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "EX-001",
+      "sheet": "ライフイベント",
+      "category": "異才",
+      "name": "謎の老人との出会い",
+      "trigger_condition": "30歳〜 / 全時代",
+      "trigger_rate": "年1%",
+      "description": "古びた本屋で謎の老人と出会う。何かを授けられた気がする。",
+      "choices": [
+        {
+          "label": "話を聞く",
+          "effect_text": "頭脳+10 / 異才候補解放"
+        },
+        {
+          "label": "丁寧に断る",
+          "effect_text": "幸福+3"
+        },
+        {
+          "label": "本を購入",
+          "effect_text": "資産-5万 / 後日効果"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "EX_SKILL_001",
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "EX-002",
+      "sheet": "ライフイベント",
+      "category": "異才",
+      "name": "夢のお告げ",
+      "trigger_condition": "幸福>=80 / 健康>=70",
+      "trigger_rate": "年0.5%",
+      "description": "夢で未来らしき映像を見た。",
+      "choices": [
+        {
+          "label": "メモして検証",
+          "effect_text": "頭脳+5 / 予知系異才解放"
+        },
+        {
+          "label": "ただの夢と忘れる",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "占い師に相談",
+          "effect_text": "資産-3万"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "EX_SKILL_002",
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "EX-003",
+      "sheet": "ライフイベント",
+      "category": "異才",
+      "name": "深夜の異常体験",
+      "trigger_condition": "20歳〜 / センス>=70",
+      "trigger_rate": "年0.5%",
+      "description": "夜中に何かを感じ取る能力に気づく。",
+      "choices": [
+        {
+          "label": "受け入れる",
+          "effect_text": "センス+10 / 直感系異才解放"
+        },
+        {
+          "label": "気のせいと思う",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "病院へ",
+          "effect_text": "資産-2万"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "EX_SKILL_003",
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "EX-004",
+      "sheet": "ライフイベント",
+      "category": "異才",
+      "name": "言語の壁を超える瞬間",
+      "trigger_condition": "国際フラグ / コミュ>=70",
+      "trigger_rate": "条件発動",
+      "description": "言語を超えた何かを掴んだ。",
+      "choices": [
+        {
+          "label": "活かす道へ",
+          "effect_text": "コミュ+15 / 国際系異才解放"
+        },
+        {
+          "label": "趣味の範囲",
+          "effect_text": "コミュ+5"
+        },
+        {
+          "label": "封印",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "EX_SKILL_004",
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "EX-005",
+      "sheet": "ライフイベント",
+      "category": "異才",
+      "name": "数字に取り憑かれる",
+      "trigger_condition": "頭脳>=80 / 投資経験",
+      "trigger_rate": "条件発動",
+      "description": "数字パターンが見えてくる。",
+      "choices": [
+        {
+          "label": "投資に活かす",
+          "effect_text": "頭脳+10 / 投資系異才解放"
+        },
+        {
+          "label": "学問へ",
+          "effect_text": "頭脳+5"
+        },
+        {
+          "label": "忘れる",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "EX_SKILL_005",
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "EX-006",
+      "sheet": "ライフイベント",
+      "category": "異才",
+      "name": "孤独の中の悟り",
+      "trigger_condition": "幸福<30 / 30歳〜 / 一人暮らし",
+      "trigger_rate": "条件発動",
+      "description": "孤独な時間が深い洞察を生む。",
+      "choices": [
+        {
+          "label": "瞑想を続ける",
+          "effect_text": "人間性+15 / 哲学系異才解放"
+        },
+        {
+          "label": "趣味で発散",
+          "effect_text": "幸福+5"
+        },
+        {
+          "label": "人と関わる",
+          "effect_text": "コミュ+3"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "EX_SKILL_006",
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "EX-007",
+      "sheet": "ライフイベント",
+      "category": "異才",
+      "name": "病からの帰還",
+      "trigger_condition": "重病から回復 / 健康<30→>50",
+      "trigger_rate": "条件発動",
+      "description": "死の淵から生還した経験が世界の見方を変える。",
+      "choices": [
+        {
+          "label": "経験を発信",
+          "effect_text": "コミュ+10 / 表現系異才解放"
+        },
+        {
+          "label": "個人で消化",
+          "effect_text": "人間性+10"
+        },
+        {
+          "label": "忘れる",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "EX_SKILL_007",
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "EX-008",
+      "sheet": "ライフイベント",
+      "category": "異才",
+      "name": "破産後の再起",
+      "trigger_condition": "破産経験 / 5年以上経過",
+      "trigger_rate": "条件発動",
+      "description": "失った経験こそが財産だった。",
+      "choices": [
+        {
+          "label": "起業する",
+          "effect_text": "頭脳+10 / 経営系異才解放"
+        },
+        {
+          "label": "雇われ役員",
+          "effect_text": "資産+月"
+        },
+        {
+          "label": "別業界へ",
+          "effect_text": "経験+"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": "EX_SKILL_008",
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "L-051",
+      "sheet": "ライフイベント",
+      "category": "家族",
+      "name": "ペット死亡",
+      "trigger_condition": "ペット飼育 / 15年〜",
+      "trigger_rate": "条件発動",
+      "description": "長年の家族が亡くなる。",
+      "choices": [
+        {
+          "label": "新しい子を迎える",
+          "effect_text": "幸福+5 / 資産-10万"
+        },
+        {
+          "label": "供養して終わり",
+          "effect_text": "幸福-10"
+        },
+        {
+          "label": "ペットロス",
+          "effect_text": "幸福-15"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-052",
+      "sheet": "ライフイベント",
+      "category": "キャリア",
+      "name": "メンター獲得",
+      "trigger_condition": "20代〜 / コミュ>=60",
+      "trigger_rate": "条件発動",
+      "description": "理解ある先輩から指導を受ける。",
+      "choices": [
+        {
+          "label": "全力で吸収",
+          "effect_text": "全能力+5"
+        },
+        {
+          "label": "適度に",
+          "effect_text": "頭脳+3"
+        },
+        {
+          "label": "断る",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 65
+    },
+    {
+      "id": "L-053",
+      "sheet": "ライフイベント",
+      "category": "キャリア",
+      "name": "部下の不祥事",
+      "trigger_condition": "管理職 / 40歳〜",
+      "trigger_rate": "条件発動",
+      "description": "部下が不祥事を起こした。責任を取らされる可能性。",
+      "choices": [
+        {
+          "label": "庇う",
+          "effect_text": "地位-5 / 信頼+"
+        },
+        {
+          "label": "切り離す",
+          "effect_text": "地位+3 / 信頼-"
+        },
+        {
+          "label": "経営判断",
+          "effect_text": "中立"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 65
+    },
+    {
+      "id": "L-054",
+      "sheet": "ライフイベント",
+      "category": "家族",
+      "name": "親戚の集まり",
+      "trigger_condition": "結婚後 / 30歳〜",
+      "trigger_rate": "年20%",
+      "description": "正月や盆の親戚集まり。",
+      "choices": [
+        {
+          "label": "進んで参加",
+          "effect_text": "コミュ+5 / 資産-5万"
+        },
+        {
+          "label": "顔出し程度",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "欠席",
+          "effect_text": "幸福+3"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "L-055",
+      "sheet": "ライフイベント",
+      "category": "家族",
+      "name": "実家の片付け",
+      "trigger_condition": "親死亡後",
+      "trigger_rate": "条件発動",
+      "description": "実家を整理する。",
+      "choices": [
+        {
+          "label": "完全に処分",
+          "effect_text": "資産+200万 / 幸福-5"
+        },
+        {
+          "label": "一部保管",
+          "effect_text": "資産+50万"
+        },
+        {
+          "label": "そのまま放置",
+          "effect_text": "資産-月維持費"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-056",
+      "sheet": "ライフイベント",
+      "category": "キャリア",
+      "name": "ヘッドハント",
+      "trigger_condition": "30歳〜 / 地位>=60",
+      "trigger_rate": "年3%",
+      "description": "他社から好条件のオファー。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "資産+月+10万 / リスク+"
+        },
+        {
+          "label": "現職維持",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "条件交渉",
+          "effect_text": "現職昇給"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "L-057",
+      "sheet": "ライフイベント",
+      "category": "健康",
+      "name": "予期せぬ妊娠",
+      "trigger_condition": "20代〜30代",
+      "trigger_rate": "条件発動",
+      "description": "想定外の妊娠が判明。",
+      "choices": [
+        {
+          "label": "産み育てる",
+          "effect_text": "幸福+15 / 支出+"
+        },
+        {
+          "label": "話し合って決める",
+          "effect_text": "選択肢出現"
+        },
+        {
+          "label": "計画見直し",
+          "effect_text": "幸福-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 65
+    },
+    {
+      "id": "I-001",
+      "sheet": "収入連動イベント",
+      "category": "副業・YouTube",
+      "name": "副業がバズる",
+      "trigger_condition": "副業実施中 / センス70+",
+      "trigger_rate": "年8%",
+      "description": "投稿動画がバズった。",
+      "choices": [
+        {
+          "label": "本業並みに注力",
+          "effect_text": "副業収入5倍 / 本業評価-"
+        },
+        {
+          "label": "ほどほどに",
+          "effect_text": "副業収入2倍"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-002",
+      "sheet": "収入連動イベント",
+      "category": "副業・YouTube",
+      "name": "副業炎上",
+      "trigger_condition": "副業実施中 / 人間性低",
+      "trigger_rate": "年3%",
+      "description": "投稿が炎上した。",
+      "choices": [
+        {
+          "label": "謝罪動画",
+          "effect_text": "幸福- / 影響力残る"
+        },
+        {
+          "label": "アカウント削除",
+          "effect_text": "副業収入0 / 再起"
+        },
+        {
+          "label": "開き直る",
+          "effect_text": "人間性-20 / アンチ拡大"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-003",
+      "sheet": "収入連動イベント",
+      "category": "副業・本業",
+      "name": "副業バレで懲戒",
+      "trigger_condition": "副業禁止の会社",
+      "trigger_rate": "年5%",
+      "description": "副業が会社にバレた。",
+      "choices": [
+        {
+          "label": "副業辞める",
+          "effect_text": "本業継続 / 副業収入0"
+        },
+        {
+          "label": "本業辞める",
+          "effect_text": "副業に専念 / 不安定"
+        },
+        {
+          "label": "土下座して残る",
+          "effect_text": "減給 / 評価-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-004",
+      "sheet": "収入連動イベント",
+      "category": "副業・本業",
+      "name": "副業解禁",
+      "trigger_condition": "令和以降 / 大企業",
+      "trigger_rate": "条件発動",
+      "description": "会社が副業を解禁した。",
+      "choices": [
+        {
+          "label": "堂々と副業",
+          "effect_text": "副業可能"
+        },
+        {
+          "label": "本業集中",
+          "effect_text": "出世コース"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-005",
+      "sheet": "収入連動イベント",
+      "category": "投資・株",
+      "name": "株式市場暴落",
+      "trigger_condition": "株保有 / リーマン等",
+      "trigger_rate": "時代依存",
+      "description": "株式市場が暴落した。",
+      "choices": [
+        {
+          "label": "損切り",
+          "effect_text": "資産-30%"
+        },
+        {
+          "label": "ホールド",
+          "effect_text": "回復待ち / 数年後"
+        },
+        {
+          "label": "ナンピン買い",
+          "effect_text": "運次第で大儲け or 大損"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-006",
+      "sheet": "収入連動イベント",
+      "category": "投資・株",
+      "name": "保有株急騰",
+      "trigger_condition": "株保有 / 運高",
+      "trigger_rate": "年4%",
+      "description": "保有株が急騰した。",
+      "choices": [
+        {
+          "label": "全部売却",
+          "effect_text": "資産2倍化"
+        },
+        {
+          "label": "半分売却",
+          "effect_text": "利確と保有のバランス"
+        },
+        {
+          "label": "全保有",
+          "effect_text": "さらに上 or 暴落"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-007",
+      "sheet": "収入連動イベント",
+      "category": "投資・不動産",
+      "name": "家賃滞納",
+      "trigger_condition": "不動産投資中",
+      "trigger_rate": "年5%",
+      "description": "入居者が家賃を滞納している。",
+      "choices": [
+        {
+          "label": "弁護士で対応",
+          "effect_text": "資産-50万 / 解決"
+        },
+        {
+          "label": "様子見",
+          "effect_text": "未収金累積"
+        },
+        {
+          "label": "強制退去",
+          "effect_text": "資産-30万 / 空室"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": "L-022",
+      "priority": 30
+    },
+    {
+      "id": "I-008",
+      "sheet": "収入連動イベント",
+      "category": "投資・不動産",
+      "name": "設備故障",
+      "trigger_condition": "不動産投資中",
+      "trigger_rate": "年8%",
+      "description": "物件の設備が故障した。",
+      "choices": [
+        {
+          "label": "新品交換",
+          "effect_text": "資産-50万 / 入居率↑"
+        },
+        {
+          "label": "中古対応",
+          "effect_text": "資産-15万 / クレーム"
+        },
+        {
+          "label": "放置",
+          "effect_text": "退去ラッシュ"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-009",
+      "sheet": "収入連動イベント",
+      "category": "投資・暗号資産",
+      "name": "取引所ハッキング",
+      "trigger_condition": "暗号資産保有時",
+      "trigger_rate": "年1%",
+      "description": "取引所がハッキングされた。",
+      "choices": [
+        {
+          "label": "返金待ち",
+          "effect_text": "全額/一部/0で返却（運次第）"
+        },
+        {
+          "label": "弁護士で訴訟",
+          "effect_text": "資産-100万 / 一部返却"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-010",
+      "sheet": "収入連動イベント",
+      "category": "投資・暗号資産",
+      "name": "暗号資産大爆騰",
+      "trigger_condition": "暗号資産保有 / 運高",
+      "trigger_rate": "年2%",
+      "description": "保有暗号資産が10倍になった。",
+      "choices": [
+        {
+          "label": "全売却",
+          "effect_text": "資産10倍化"
+        },
+        {
+          "label": "ホールド",
+          "effect_text": "さらに上 or 暴落"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-011",
+      "sheet": "収入連動イベント",
+      "category": "給料・会社",
+      "name": "給料未払い",
+      "trigger_condition": "中小・零細勤務",
+      "trigger_rate": "年2%",
+      "description": "会社が給料を払わない。",
+      "choices": [
+        {
+          "label": "労基に通報",
+          "effect_text": "資産-時間 / 解決"
+        },
+        {
+          "label": "退職して取り立て",
+          "effect_text": "無職 / 給料回収"
+        },
+        {
+          "label": "泣き寝入り",
+          "effect_text": "給料消失"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-012",
+      "sheet": "収入連動イベント",
+      "category": "給料・会社",
+      "name": "減俸通告",
+      "trigger_condition": "業績悪化時",
+      "trigger_rate": "年3%",
+      "description": "業績悪化で減俸された。",
+      "choices": [
+        {
+          "label": "受け入れる",
+          "effect_text": "月収-20%"
+        },
+        {
+          "label": "転職活動開始",
+          "effect_text": "退職へ"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-013",
+      "sheet": "収入連動イベント",
+      "category": "家族・収入",
+      "name": "配偶者リストラ",
+      "trigger_condition": "結婚後 / ランダム",
+      "trigger_rate": "年2%",
+      "description": "配偶者がリストラされた。",
+      "choices": [
+        {
+          "label": "支える",
+          "effect_text": "家計圧迫 / 関係+"
+        },
+        {
+          "label": "離婚を考え始める",
+          "effect_text": "関係-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-014",
+      "sheet": "収入連動イベント",
+      "category": "家族・収入",
+      "name": "親の遺産入金",
+      "trigger_condition": "親死亡時",
+      "trigger_rate": "条件発動",
+      "description": "親の遺産が入った。",
+      "choices": [
+        {
+          "label": "全額受け取る",
+          "effect_text": "資産+大 / 相続税-"
+        },
+        {
+          "label": "兄弟と分割",
+          "effect_text": "資産+ / 関係+"
+        },
+        {
+          "label": "相続放棄",
+          "effect_text": "借金回避"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-015",
+      "sheet": "収入連動イベント",
+      "category": "副業・印税",
+      "name": "印税ロングセラー化",
+      "trigger_condition": "本・音楽出版経験",
+      "trigger_rate": "年1%",
+      "description": "出版物がロングセラーに。",
+      "choices": [
+        {
+          "label": "印税継続収入",
+          "effect_text": "毎月+10万"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-016",
+      "sheet": "収入連動イベント",
+      "category": "副業・転売",
+      "name": "個人間売買アプリ高額売却",
+      "trigger_condition": "ランダム",
+      "trigger_rate": "年6%",
+      "description": "押入れの古物が高値で売れた。",
+      "choices": [
+        {
+          "label": "1万円",
+          "effect_text": "ささやか"
+        },
+        {
+          "label": "10万円",
+          "effect_text": "嬉しい"
+        },
+        {
+          "label": "100万円",
+          "effect_text": "オタク品の本気"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-017",
+      "sheet": "収入連動イベント",
+      "category": "副業・転売",
+      "name": "個人間売買アプリで偽物騒ぎ",
+      "trigger_condition": "個人間売買アプリ常用",
+      "trigger_rate": "年2%",
+      "description": "売った商品が偽物と疑われた。",
+      "choices": [
+        {
+          "label": "謝罪・返金",
+          "effect_text": "資産-5万 / 評価維持"
+        },
+        {
+          "label": "戦う",
+          "effect_text": "勝訴 or 出禁"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-018",
+      "sheet": "収入連動イベント",
+      "category": "副業・アフィ",
+      "name": "ASP閉鎖",
+      "trigger_condition": "アフィリエイト中",
+      "trigger_rate": "年5%",
+      "description": "提携先ASPが閉鎖。",
+      "choices": [
+        {
+          "label": "他ASPへ移行",
+          "effect_text": "副業収入半減一時的"
+        },
+        {
+          "label": "副業終了",
+          "effect_text": "副業収入0"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-019",
+      "sheet": "収入連動イベント",
+      "category": "給料・ボーナス",
+      "name": "ボーナスカット",
+      "trigger_condition": "業績悪化期",
+      "trigger_rate": "年5%",
+      "description": "ボーナスがカットされた。",
+      "choices": [
+        {
+          "label": "受け入れ",
+          "effect_text": "ボーナス-50%"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-020",
+      "sheet": "収入連動イベント",
+      "category": "給料・ボーナス",
+      "name": "ボーナス満額支給",
+      "trigger_condition": "好景気時",
+      "trigger_rate": "年5%",
+      "description": "業績好調でボーナス満額。",
+      "choices": [
+        {
+          "label": "受け取る",
+          "effect_text": "ボーナス+30%"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-021",
+      "sheet": "収入連動イベント",
+      "category": "公的・受動",
+      "name": "失業保険給付",
+      "trigger_condition": "失業時",
+      "trigger_rate": "条件発動",
+      "description": "失業保険の給付が始まった。",
+      "choices": [
+        {
+          "label": "受給する",
+          "effect_text": "月+15万（一定期間）"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": "L-008",
+      "priority": 30
+    },
+    {
+      "id": "I-022",
+      "sheet": "収入連動イベント",
+      "category": "公的・受動",
+      "name": "年金制度改正",
+      "trigger_condition": "60歳前後",
+      "trigger_rate": "時代依存",
+      "description": "年金制度が改正された。",
+      "choices": [
+        {
+          "label": "対応する",
+          "effect_text": "受給額±20%"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-023",
+      "sheet": "収入連動イベント",
+      "category": "公的・受動",
+      "name": "児童手当見直し",
+      "trigger_condition": "子持ち時代",
+      "trigger_rate": "時代依存",
+      "description": "児童手当の制度が変わった。",
+      "choices": [
+        {
+          "label": "受け取り続ける",
+          "effect_text": "月収±2万"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-024",
+      "sheet": "収入連動イベント",
+      "category": "一時収入",
+      "name": "講演料舞い込む",
+      "trigger_condition": "地位高 / コミュ高",
+      "trigger_rate": "年3%",
+      "description": "講演を依頼された。",
+      "choices": [
+        {
+          "label": "引き受ける",
+          "effect_text": "+30万 / 知名度+"
+        },
+        {
+          "label": "断る",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "I-025",
+      "sheet": "収入連動イベント",
+      "category": "副業・倒産",
+      "name": "副業先倒産",
+      "trigger_condition": "副業実施中",
+      "trigger_rate": "年2%",
+      "description": "副業先が倒産した。",
+      "choices": [
+        {
+          "label": "別の副業探す",
+          "effect_text": "副業収入一時0"
+        },
+        {
+          "label": "本業に集中",
+          "effect_text": "副業終了"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "CR-001",
+      "sheet": "収入連動イベント",
+      "category": "投資・暗号通貨",
+      "name": "暗号通貨ブーム",
+      "trigger_condition": "令和以降 / 投資配分>=10%",
+      "trigger_rate": "年8%",
+      "description": "暗号通貨価格が急騰。手持ち通貨が10倍に。",
+      "choices": [
+        {
+          "label": "売却して利確",
+          "effect_text": "資産+大幅増 / 税+"
+        },
+        {
+          "label": "保有継続",
+          "effect_text": "リスク継続 / 暴落確率+"
+        },
+        {
+          "label": "追加購入",
+          "effect_text": "リスク激増"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "CR-002",
+      "sheet": "収入連動イベント",
+      "category": "投資・暗号通貨",
+      "name": "暗号通貨暴落",
+      "trigger_condition": "令和以降 / 暗号通貨保有",
+      "trigger_rate": "年10%",
+      "description": "市場が暴落。資産が60%減。",
+      "choices": [
+        {
+          "label": "損切り",
+          "effect_text": "資産-多 / 心理ダメージ"
+        },
+        {
+          "label": "ガチホ",
+          "effect_text": "現状維持 / 回復待ち"
+        },
+        {
+          "label": "ナンピン",
+          "effect_text": "更にリスク"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "CR-003",
+      "sheet": "収入連動イベント",
+      "category": "投資・暗号通貨",
+      "name": "詐欺コインに引っかかる",
+      "trigger_condition": "令和以降 / 投資不慣れ",
+      "trigger_rate": "条件発動",
+      "description": "怪しいコインに資産を流したが、ラグプル。",
+      "choices": [
+        {
+          "label": "弁護士相談",
+          "effect_text": "資産-大幅 / 一部回収可能"
+        },
+        {
+          "label": "諦める",
+          "effect_text": "資産-完全消失"
+        },
+        {
+          "label": "学んで再挑戦",
+          "effect_text": "経験値+"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": true,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "CR-004",
+      "sheet": "収入連動イベント",
+      "category": "投資・暗号通貨",
+      "name": "ステーキング報酬",
+      "trigger_condition": "令和以降 / 暗号通貨保有",
+      "trigger_rate": "年12%",
+      "description": "保有暗号通貨でステーキング報酬を獲得。",
+      "choices": [
+        {
+          "label": "全額再投資",
+          "effect_text": "資産複利増"
+        },
+        {
+          "label": "報酬は引き出し",
+          "effect_text": "資産+小幅"
+        },
+        {
+          "label": "ステーキング解除",
+          "effect_text": "流動性+"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "CR-005",
+      "sheet": "収入連動イベント",
+      "category": "投資・暗号通貨",
+      "name": "NFT流行",
+      "trigger_condition": "令和以降 / センス>=60",
+      "trigger_rate": "条件発動",
+      "description": "NFT市場参入のチャンス。",
+      "choices": [
+        {
+          "label": "クリエイター側で参入",
+          "effect_text": "センス+10 / 資産+多大or-多"
+        },
+        {
+          "label": "コレクター側",
+          "effect_text": "資産-100万 / 趣味+"
+        },
+        {
+          "label": "傍観",
+          "effect_text": "経験値+"
+        }
+      ],
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 55
+    },
+    {
+      "id": "E-001",
+      "sheet": "支出連動イベント",
+      "category": "住居",
+      "name": "家賃値上げ通告",
+      "trigger_condition": "賃貸暮らし",
+      "trigger_rate": "年3%",
+      "description": "大家から家賃値上げの通告。",
+      "choices": [
+        {
+          "label": "受け入れ",
+          "effect_text": "月-1万"
+        },
+        {
+          "label": "引越し",
+          "effect_text": "資産-50万 / 家賃据え置き"
+        },
+        {
+          "label": "交渉",
+          "effect_text": "運次第で値上げ回避"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-002",
+      "sheet": "支出連動イベント",
+      "category": "住居",
+      "name": "退去要求",
+      "trigger_condition": "賃貸暮らし",
+      "trigger_rate": "年1%",
+      "description": "大家が建替えで退去要求。",
+      "choices": [
+        {
+          "label": "立退料受取",
+          "effect_text": "資産+30万 / 引越し"
+        },
+        {
+          "label": "拒否して訴訟",
+          "effect_text": "資産-100万 / 結果次第"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-003",
+      "sheet": "支出連動イベント",
+      "category": "生活費",
+      "name": "物価高騰",
+      "trigger_condition": "時代・経済状況依存",
+      "trigger_rate": "時代依存",
+      "description": "物価が急騰している。",
+      "choices": [
+        {
+          "label": "節約モード",
+          "effect_text": "幸福- / 食費維持"
+        },
+        {
+          "label": "支出維持",
+          "effect_text": "幸福維持 / 貯蓄圧迫"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-004",
+      "sheet": "支出連動イベント",
+      "category": "生活費",
+      "name": "電気代爆増",
+      "trigger_condition": "夏冬",
+      "trigger_rate": "季節",
+      "description": "猛暑/厳冬で光熱費激増。",
+      "choices": [
+        {
+          "label": "我慢する",
+          "effect_text": "健康- / 出費抑制"
+        },
+        {
+          "label": "気にせず使う",
+          "effect_text": "幸福+ / 月-2万"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-005",
+      "sheet": "支出連動イベント",
+      "category": "家族・教育",
+      "name": "子供が私立志望",
+      "trigger_condition": "子供あり",
+      "trigger_rate": "条件発動",
+      "description": "子供が私立を志望している。",
+      "choices": [
+        {
+          "label": "私立に通わせる",
+          "effect_text": "教育費月+10万"
+        },
+        {
+          "label": "公立を勧める",
+          "effect_text": "関係悪化リスク"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-006",
+      "sheet": "支出連動イベント",
+      "category": "推し活",
+      "name": "推しが結婚",
+      "trigger_condition": "推し活実施中",
+      "trigger_rate": "年3%",
+      "description": "推しが結婚を発表。",
+      "choices": [
+        {
+          "label": "祝福する",
+          "effect_text": "幸福- / 推し活継続"
+        },
+        {
+          "label": "推し変",
+          "effect_text": "新たな推しへ"
+        },
+        {
+          "label": "病む",
+          "effect_text": "幸福-20 / 仕事支障"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-007",
+      "sheet": "支出連動イベント",
+      "category": "推し活",
+      "name": "推しが逮捕",
+      "trigger_condition": "推し活実施中",
+      "trigger_rate": "年1%",
+      "description": "推しが薬物等で逮捕。",
+      "choices": [
+        {
+          "label": "ファン辞める",
+          "effect_text": "推し活終了"
+        },
+        {
+          "label": "信じ続ける",
+          "effect_text": "周囲から白い目"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-008",
+      "sheet": "支出連動イベント",
+      "category": "推し活",
+      "name": "推しが大ブレイク",
+      "trigger_condition": "推し活実施中",
+      "trigger_rate": "年5%",
+      "description": "推しが国民的スターに。",
+      "choices": [
+        {
+          "label": "課金加速",
+          "effect_text": "月-15万 / 幸福+"
+        },
+        {
+          "label": "落ち着いて応援",
+          "effect_text": "コスパ維持"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-009",
+      "sheet": "支出連動イベント",
+      "category": "ペット",
+      "name": "ペット大病",
+      "trigger_condition": "ペット飼育中",
+      "trigger_rate": "年5%",
+      "description": "ペットが大病になった。",
+      "choices": [
+        {
+          "label": "高額医療",
+          "effect_text": "資産-50万 / 救命"
+        },
+        {
+          "label": "標準治療",
+          "effect_text": "資産-10万 / 運次第"
+        },
+        {
+          "label": "看取り",
+          "effect_text": "幸福- / コスト無"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-010",
+      "sheet": "支出連動イベント",
+      "category": "家族・介護",
+      "name": "親の介護費",
+      "trigger_condition": "親60歳〜",
+      "trigger_rate": "年5%",
+      "description": "親の介護費がかさむ。",
+      "choices": [
+        {
+          "label": "在宅介護",
+          "effect_text": "時間消費 / 人間性+"
+        },
+        {
+          "label": "介護施設",
+          "effect_text": "月-15万"
+        },
+        {
+          "label": "兄弟任せ",
+          "effect_text": "人間性-20"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-011",
+      "sheet": "支出連動イベント",
+      "category": "医療",
+      "name": "高額医療",
+      "trigger_condition": "重病後",
+      "trigger_rate": "条件発動",
+      "description": "保険適用外の高額医療が必要。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "資産-500万 / 健康+"
+        },
+        {
+          "label": "断る",
+          "effect_text": "健康-30"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-012",
+      "sheet": "支出連動イベント",
+      "category": "借金",
+      "name": "金利上昇",
+      "trigger_condition": "借金あり",
+      "trigger_rate": "時代依存",
+      "description": "金利上昇で返済額増加。",
+      "choices": [
+        {
+          "label": "繰上返済",
+          "effect_text": "資産消費 / 金利分軽減"
+        },
+        {
+          "label": "そのまま",
+          "effect_text": "月返済+5%"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-013",
+      "sheet": "支出連動イベント",
+      "category": "法律",
+      "name": "弁護士費用",
+      "trigger_condition": "訴訟関連",
+      "trigger_rate": "条件発動",
+      "description": "弁護士費用が必要になった。",
+      "choices": [
+        {
+          "label": "依頼する",
+          "effect_text": "資産-100万"
+        },
+        {
+          "label": "自分で対応",
+          "effect_text": "時間消費 / 敗訴リスク"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": "L-012",
+      "priority": 30
+    },
+    {
+      "id": "E-014",
+      "sheet": "支出連動イベント",
+      "category": "家族・教育",
+      "name": "子供の塾代増",
+      "trigger_condition": "受験期の子供",
+      "trigger_rate": "条件発動",
+      "description": "受験期で塾代が高騰。",
+      "choices": [
+        {
+          "label": "私立塾",
+          "effect_text": "月-15万 / 頭脳+"
+        },
+        {
+          "label": "公文・通信",
+          "effect_text": "月-2万 / 標準"
+        },
+        {
+          "label": "なし",
+          "effect_text": "学力低下"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-015",
+      "sheet": "支出連動イベント",
+      "category": "車",
+      "name": "マイカー故障",
+      "trigger_condition": "車所有時",
+      "trigger_rate": "年6%",
+      "description": "車が故障した。",
+      "choices": [
+        {
+          "label": "修理",
+          "effect_text": "資産-30万"
+        },
+        {
+          "label": "買替",
+          "effect_text": "資産-200万 / 新車"
+        },
+        {
+          "label": "廃車",
+          "effect_text": "資産-2万 / 車なし"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-016",
+      "sheet": "支出連動イベント",
+      "category": "家具家電",
+      "name": "家電一斉故障",
+      "trigger_condition": "10年使用後",
+      "trigger_rate": "条件発動",
+      "description": "10年使った家電が一斉に壊れた。",
+      "choices": [
+        {
+          "label": "全部買替",
+          "effect_text": "資産-50万"
+        },
+        {
+          "label": "壊れた順",
+          "effect_text": "ストレス / 出費分散"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-017",
+      "sheet": "支出連動イベント",
+      "category": "寄付",
+      "name": "寄付先団体炎上",
+      "trigger_condition": "寄付活動中",
+      "trigger_rate": "年2%",
+      "description": "寄付した団体が炎上。",
+      "choices": [
+        {
+          "label": "寄付辞める",
+          "effect_text": "人間性- / 別団体へ"
+        },
+        {
+          "label": "そのまま継続",
+          "effect_text": "人間性-10"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-018",
+      "sheet": "支出連動イベント",
+      "category": "税金",
+      "name": "地方自治体寄付制度限度超過",
+      "trigger_condition": "高所得",
+      "trigger_rate": "年1%",
+      "description": "地方自治体寄付制度が限度額を超過。",
+      "choices": [
+        {
+          "label": "そのまま",
+          "effect_text": "節税効果なし / 単純損"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-019",
+      "sheet": "支出連動イベント",
+      "category": "詐欺",
+      "name": "詐欺被害",
+      "trigger_condition": "再発しやすい",
+      "trigger_rate": "年3%",
+      "description": "新手の詐欺に遭った。",
+      "choices": [
+        {
+          "label": "警察通報",
+          "effect_text": "資産消失 / 一部回収"
+        },
+        {
+          "label": "泣き寝入り",
+          "effect_text": "資産消失"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-020",
+      "sheet": "支出連動イベント",
+      "category": "家具家電",
+      "name": "スマホ水没",
+      "trigger_condition": "ランダム",
+      "trigger_rate": "年5%",
+      "description": "スマホを水没させた。",
+      "choices": [
+        {
+          "label": "新品購入",
+          "effect_text": "資産-15万 / 最新"
+        },
+        {
+          "label": "中古調達",
+          "effect_text": "資産-3万 / 性能↓"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-021",
+      "sheet": "支出連動イベント",
+      "category": "災害",
+      "name": "火事",
+      "trigger_condition": "ランダム / 運最低",
+      "trigger_rate": "年0.3%",
+      "description": "家事になった。",
+      "choices": [
+        {
+          "label": "保険で再建",
+          "effect_text": "資産-30% / 解決"
+        },
+        {
+          "label": "保険なし",
+          "effect_text": "資産-80% / 路頭"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-022",
+      "sheet": "支出連動イベント",
+      "category": "災害",
+      "name": "漏水で階下被害",
+      "trigger_condition": "持ち家・賃貸",
+      "trigger_rate": "年0.5%",
+      "description": "水漏れで階下に被害。",
+      "choices": [
+        {
+          "label": "保険で対応",
+          "effect_text": "資産-10万 / 解決"
+        },
+        {
+          "label": "全額自腹",
+          "effect_text": "資産-300万"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-023",
+      "sheet": "支出連動イベント",
+      "category": "近所",
+      "name": "近所トラブル",
+      "trigger_condition": "ランダム",
+      "trigger_rate": "年2%",
+      "description": "近所と揉め事が起きた。",
+      "choices": [
+        {
+          "label": "話し合い",
+          "effect_text": "解決 or 悪化"
+        },
+        {
+          "label": "弁護士",
+          "effect_text": "資産-50万 / 解決"
+        },
+        {
+          "label": "引越し",
+          "effect_text": "資産-50万 / 解決"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-024",
+      "sheet": "支出連動イベント",
+      "category": "税金",
+      "name": "税務調査来訪",
+      "trigger_condition": "高所得 / 副業多角化",
+      "trigger_rate": "年0.5%",
+      "description": "税務署が来た。",
+      "choices": [
+        {
+          "label": "誠実対応",
+          "effect_text": "追徴 0〜100万"
+        },
+        {
+          "label": "ごまかす",
+          "effect_text": "脱税 / 摘発リスク"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "E-025",
+      "sheet": "支出連動イベント",
+      "category": "借金",
+      "name": "闇金からの取り立て",
+      "trigger_condition": "ギャンブル等で借金",
+      "trigger_rate": "条件発動",
+      "description": "闇金が取り立てに来た。",
+      "choices": [
+        {
+          "label": "全額返済",
+          "effect_text": "資産消失"
+        },
+        {
+          "label": "警察通報",
+          "effect_text": "解決 / 報復リスク"
+        },
+        {
+          "label": "夜逃げ",
+          "effect_text": "人生リセット"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "S-001",
+      "sheet": "季節イベント",
+      "category": "春",
+      "name": "花見シーズン",
+      "trigger_condition": "3〜4月",
+      "trigger_rate": "年1回",
+      "description": "花見の季節。誘いが増える。",
+      "choices": [
+        {
+          "label": "全部参加",
+          "effect_text": "交際費-3万 / 出会い+"
+        },
+        {
+          "label": "厳選参加",
+          "effect_text": "交際費-1万 / 標準"
+        },
+        {
+          "label": "ひきこもる",
+          "effect_text": "節約 / 幸福-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-002",
+      "sheet": "季節イベント",
+      "category": "春",
+      "name": "新年度の人事発表",
+      "trigger_condition": "4月 / 会社員",
+      "trigger_rate": "年1回",
+      "description": "人事発表の日。",
+      "choices": [
+        {
+          "label": "結果待ち",
+          "effect_text": "昇進/平行/降格（運次第）"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-003",
+      "sheet": "季節イベント",
+      "category": "春",
+      "name": "花粉症発症",
+      "trigger_condition": "2〜4月 / 一定確率",
+      "trigger_rate": "年20%",
+      "description": "花粉症になった。",
+      "choices": [
+        {
+          "label": "薬で対処",
+          "effect_text": "月-3000円 / QOL維持"
+        },
+        {
+          "label": "我慢",
+          "effect_text": "幸福-5"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-004",
+      "sheet": "季節イベント",
+      "category": "春",
+      "name": "五月病",
+      "trigger_condition": "5月 / 新環境後",
+      "trigger_rate": "年30%",
+      "description": "やる気が出ない。",
+      "choices": [
+        {
+          "label": "休暇取る",
+          "effect_text": "回復"
+        },
+        {
+          "label": "気合で乗り切る",
+          "effect_text": "メンタル- / 仕事継続"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-005",
+      "sheet": "季節イベント",
+      "category": "春",
+      "name": "健康診断",
+      "trigger_condition": "4月",
+      "trigger_rate": "年1回",
+      "description": "健康診断の時期。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "異常値発覚抽選"
+        },
+        {
+          "label": "サボる",
+          "effect_text": "リスク隠れる"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-006",
+      "sheet": "季節イベント",
+      "category": "春",
+      "name": "確定申告",
+      "trigger_condition": "2〜3月 / 副業or自営",
+      "trigger_rate": "年1回",
+      "description": "確定申告のシーズン。",
+      "choices": [
+        {
+          "label": "正しく申告",
+          "effect_text": "節税最適化"
+        },
+        {
+          "label": "サボる",
+          "effect_text": "追徴リスク"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-007",
+      "sheet": "季節イベント",
+      "category": "春",
+      "name": "入学式",
+      "trigger_condition": "4月 / 子供節目",
+      "trigger_rate": "条件発動",
+      "description": "子供の入学式。",
+      "choices": [
+        {
+          "label": "祝う",
+          "effect_text": "幸福+ / 出費"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-008",
+      "sheet": "季節イベント",
+      "category": "春",
+      "name": "お花見デート",
+      "trigger_condition": "3〜4月 / 独身or恋人",
+      "trigger_rate": "年1回",
+      "description": "お花見デートの誘い。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "関係+ / 出費"
+        },
+        {
+          "label": "断る",
+          "effect_text": "関係-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-009",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "6月ボーナス支給",
+      "trigger_condition": "6月 / 会社員",
+      "trigger_rate": "年1回",
+      "description": "夏のボーナス。",
+      "choices": [
+        {
+          "label": "全部使う",
+          "effect_text": "幸福+ / 貯蓄無"
+        },
+        {
+          "label": "貯蓄に回す",
+          "effect_text": "資産+"
+        },
+        {
+          "label": "投資する",
+          "effect_text": "運次第"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-010",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "梅雨で精神不調",
+      "trigger_condition": "6月",
+      "trigger_rate": "年50%",
+      "description": "梅雨でやる気出ず。",
+      "choices": [
+        {
+          "label": "ジムで発散",
+          "effect_text": "健康+ / 出費"
+        },
+        {
+          "label": "引きこもる",
+          "effect_text": "幸福-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-011",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "夏休み旅行",
+      "trigger_condition": "8月",
+      "trigger_rate": "年1回",
+      "description": "夏休みの計画。",
+      "choices": [
+        {
+          "label": "海外旅行",
+          "effect_text": "資産-50万 / 幸福+30"
+        },
+        {
+          "label": "国内旅行",
+          "effect_text": "資産-10万 / 幸福+15"
+        },
+        {
+          "label": "家でのんびり",
+          "effect_text": "節約 / 幸福+5"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-012",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "お盆帰省",
+      "trigger_condition": "8月",
+      "trigger_rate": "年1回",
+      "description": "お盆の帰省。",
+      "choices": [
+        {
+          "label": "帰省する",
+          "effect_text": "交通費 / 関係+"
+        },
+        {
+          "label": "帰省せず",
+          "effect_text": "節約 / 関係-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-013",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "夏祭り・花火",
+      "trigger_condition": "7〜8月",
+      "trigger_rate": "年1回",
+      "description": "夏祭り・花火大会。",
+      "choices": [
+        {
+          "label": "デート/家族で",
+          "effect_text": "幸福+ / 出費"
+        },
+        {
+          "label": "1人で",
+          "effect_text": "幸福+5"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-014",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "台風被害",
+      "trigger_condition": "8〜9月",
+      "trigger_rate": "年10%",
+      "description": "台風で被害。",
+      "choices": [
+        {
+          "label": "保険で対応",
+          "effect_text": "資産-5万 / 解決"
+        },
+        {
+          "label": "自費修繕",
+          "effect_text": "資産-30万"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-015",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "熱中症",
+      "trigger_condition": "7〜8月 / 体力低",
+      "trigger_rate": "年10%",
+      "description": "熱中症になった。",
+      "choices": [
+        {
+          "label": "病院",
+          "effect_text": "資産-1万 / 健康回復"
+        },
+        {
+          "label": "自宅安静",
+          "effect_text": "健康-10"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-016",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "お墓参り",
+      "trigger_condition": "8月",
+      "trigger_rate": "年1回",
+      "description": "お墓参りに行く？",
+      "choices": [
+        {
+          "label": "行く",
+          "effect_text": "人間性+5"
+        },
+        {
+          "label": "行かない",
+          "effect_text": "人間性-2"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-017",
+      "sheet": "季節イベント",
+      "category": "夏",
+      "name": "海・プール",
+      "trigger_condition": "7〜8月",
+      "trigger_rate": "年1回",
+      "description": "夏のレジャー。",
+      "choices": [
+        {
+          "label": "海に行く",
+          "effect_text": "幸福+ / 出会い"
+        },
+        {
+          "label": "プール",
+          "effect_text": "幸福+ / 健康+"
+        },
+        {
+          "label": "行かない",
+          "effect_text": "節約"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-018",
+      "sheet": "季節イベント",
+      "category": "秋",
+      "name": "紅葉狩り",
+      "trigger_condition": "10〜11月",
+      "trigger_rate": "年1回",
+      "description": "紅葉の季節。",
+      "choices": [
+        {
+          "label": "旅行する",
+          "effect_text": "資産-3万 / 幸福+"
+        },
+        {
+          "label": "近場で",
+          "effect_text": "幸福+5"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-019",
+      "sheet": "季節イベント",
+      "category": "秋",
+      "name": "運動会",
+      "trigger_condition": "10月 / 子供あり",
+      "trigger_rate": "年1回",
+      "description": "子供の運動会。",
+      "choices": [
+        {
+          "label": "参加して撮影",
+          "effect_text": "ビデオ代 / 関係+"
+        },
+        {
+          "label": "仕事で欠席",
+          "effect_text": "関係-10"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-020",
+      "sheet": "季節イベント",
+      "category": "秋",
+      "name": "食欲の秋",
+      "trigger_condition": "9〜11月",
+      "trigger_rate": "年1回",
+      "description": "食べ過ぎ注意。",
+      "choices": [
+        {
+          "label": "我慢する",
+          "effect_text": "健康維持"
+        },
+        {
+          "label": "食べまくる",
+          "effect_text": "幸福+ / 健康-5（肥満）"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-021",
+      "sheet": "季節イベント",
+      "category": "秋",
+      "name": "文化祭・芸術",
+      "trigger_condition": "10〜11月",
+      "trigger_rate": "年1回",
+      "description": "芸術鑑賞のシーズン。",
+      "choices": [
+        {
+          "label": "鑑賞する",
+          "effect_text": "センス+ / 出費"
+        },
+        {
+          "label": "参加しない",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-022",
+      "sheet": "季節イベント",
+      "category": "秋",
+      "name": "ハロウィン",
+      "trigger_condition": "10月",
+      "trigger_rate": "年1回",
+      "description": "ハロウィンに参加？",
+      "choices": [
+        {
+          "label": "コスプレで参加",
+          "effect_text": "出費 / 幸福+"
+        },
+        {
+          "label": "家でお菓子",
+          "effect_text": "コスパ良"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-023",
+      "sheet": "季節イベント",
+      "category": "秋",
+      "name": "インフル予防接種",
+      "trigger_condition": "10〜11月",
+      "trigger_rate": "年1回",
+      "description": "予防接種の時期。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "資産-3000円 / 健康+"
+        },
+        {
+          "label": "受けない",
+          "effect_text": "罹患リスク"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-024",
+      "sheet": "季節イベント",
+      "category": "秋",
+      "name": "読書の秋",
+      "trigger_condition": "10〜11月",
+      "trigger_rate": "年1回",
+      "description": "読書のシーズン。",
+      "choices": [
+        {
+          "label": "本を読む",
+          "effect_text": "頭脳+ / センス+"
+        },
+        {
+          "label": "読まない",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-025",
+      "sheet": "季節イベント",
+      "category": "秋",
+      "name": "スポーツの秋",
+      "trigger_condition": "9〜10月",
+      "trigger_rate": "年1回",
+      "description": "スポーツを始める？",
+      "choices": [
+        {
+          "label": "ジム入会",
+          "effect_text": "月-1万 / 体力+"
+        },
+        {
+          "label": "始めない",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-026",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "12月ボーナス",
+      "trigger_condition": "12月 / 会社員",
+      "trigger_rate": "年1回",
+      "description": "冬のボーナス。",
+      "choices": [
+        {
+          "label": "ぜいたく",
+          "effect_text": "幸福+ / 貯蓄無"
+        },
+        {
+          "label": "貯蓄",
+          "effect_text": "資産+"
+        },
+        {
+          "label": "投資",
+          "effect_text": "運次第"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-027",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "忘年会連発",
+      "trigger_condition": "12月",
+      "trigger_rate": "年1回",
+      "description": "忘年会シーズン。",
+      "choices": [
+        {
+          "label": "全部参加",
+          "effect_text": "交際費-5万 / 健康-"
+        },
+        {
+          "label": "厳選参加",
+          "effect_text": "交際費-2万"
+        },
+        {
+          "label": "全断り",
+          "effect_text": "節約 / 関係-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-028",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "クリスマス",
+      "trigger_condition": "12月",
+      "trigger_rate": "年1回",
+      "description": "クリスマスをどう過ごす？",
+      "choices": [
+        {
+          "label": "デート/家族で",
+          "effect_text": "出費 / 関係+"
+        },
+        {
+          "label": "1人で",
+          "effect_text": "節約 / 幸福-（独身）"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-029",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "大掃除",
+      "trigger_condition": "12月",
+      "trigger_rate": "年1回",
+      "description": "大掃除のシーズン。",
+      "choices": [
+        {
+          "label": "徹底的に",
+          "effect_text": "ストレス / 達成感"
+        },
+        {
+          "label": "適当に",
+          "effect_text": "ストレス低 / 翌年困る"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-030",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "お正月",
+      "trigger_condition": "1月",
+      "trigger_rate": "年1回",
+      "description": "お正月。",
+      "choices": [
+        {
+          "label": "家族で過ごす",
+          "effect_text": "関係+ / お年玉支出"
+        },
+        {
+          "label": "海外で過ごす",
+          "effect_text": "資産-30万 / 幸福+"
+        },
+        {
+          "label": "1人で",
+          "effect_text": "節約"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-031",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "初詣",
+      "trigger_condition": "1月",
+      "trigger_rate": "年1回",
+      "description": "初詣に行く？",
+      "choices": [
+        {
+          "label": "有名神社",
+          "effect_text": "運+5 / 賽銭"
+        },
+        {
+          "label": "近所",
+          "effect_text": "運+2 / 節約"
+        },
+        {
+          "label": "行かない",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-032",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "成人式",
+      "trigger_condition": "1月 / 20歳",
+      "trigger_rate": "1回限り",
+      "description": "成人式の年。",
+      "choices": [
+        {
+          "label": "豪華に着物",
+          "effect_text": "資産-30万 / 幸福+"
+        },
+        {
+          "label": "簡素に",
+          "effect_text": "資産-3万"
+        },
+        {
+          "label": "出席せず",
+          "effect_text": "節約 / 関係-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-033",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "節分",
+      "trigger_condition": "2月",
+      "trigger_rate": "年1回",
+      "description": "節分の豆まき。",
+      "choices": [
+        {
+          "label": "豆まきする",
+          "effect_text": "健康+小 / 幸福+"
+        },
+        {
+          "label": "やらない",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-034",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "バレンタイン",
+      "trigger_condition": "2月",
+      "trigger_rate": "年1回",
+      "description": "バレンタイン。",
+      "choices": [
+        {
+          "label": "本気で参加",
+          "effect_text": "関係+ / 出費"
+        },
+        {
+          "label": "義理だけ",
+          "effect_text": "コスパ良"
+        },
+        {
+          "label": "ノータッチ",
+          "effect_text": "関係-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-035",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "風邪・インフル",
+      "trigger_condition": "1〜2月",
+      "trigger_rate": "年20%",
+      "description": "体調不良。",
+      "choices": [
+        {
+          "label": "病院",
+          "effect_text": "資産-5000円 / 早期回復"
+        },
+        {
+          "label": "市販薬",
+          "effect_text": "資産-1500円 / 長引く"
+        },
+        {
+          "label": "気合",
+          "effect_text": "健康- / 周りに移す"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-036",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "大寒波",
+      "trigger_condition": "1〜2月",
+      "trigger_rate": "年5%",
+      "description": "記録的寒波。",
+      "choices": [
+        {
+          "label": "暖房フル稼働",
+          "effect_text": "光熱費+5万 / 健康維持"
+        },
+        {
+          "label": "節約",
+          "effect_text": "光熱費維持 / 健康-"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "S-037",
+      "sheet": "季節イベント",
+      "category": "冬",
+      "name": "スキー旅行",
+      "trigger_condition": "1〜2月",
+      "trigger_rate": "年1回",
+      "description": "スキー旅行の誘い。",
+      "choices": [
+        {
+          "label": "行く",
+          "effect_text": "資産-10万 / 幸福+"
+        },
+        {
+          "label": "断る",
+          "effect_text": "節約"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "T-001",
+      "sheet": "時代イベント",
+      "category": "昭和",
+      "name": "高度経済成長",
+      "trigger_condition": "1960〜1973",
+      "trigger_rate": "時代必発",
+      "description": "経済急成長期。",
+      "choices": [
+        {
+          "label": "貯蓄重視",
+          "effect_text": "資産+30%"
+        },
+        {
+          "label": "消費重視",
+          "effect_text": "幸福+ / 文化享受"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-002",
+      "sheet": "時代イベント",
+      "category": "昭和",
+      "name": "燃料危機",
+      "trigger_condition": "1973",
+      "trigger_rate": "時代必発",
+      "description": "石油由来商品の価格高騰。",
+      "choices": [
+        {
+          "label": "節約モード",
+          "effect_text": "影響緩和"
+        },
+        {
+          "label": "無策",
+          "effect_text": "資産-15%"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-003",
+      "sheet": "時代イベント",
+      "category": "昭和",
+      "name": "バブル経済",
+      "trigger_condition": "1986〜1989",
+      "trigger_rate": "時代必発",
+      "description": "バブル景気到来。",
+      "choices": [
+        {
+          "label": "土地・株に投資",
+          "effect_text": "資産5倍化"
+        },
+        {
+          "label": "様子見",
+          "effect_text": "後悔"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-004",
+      "sheet": "時代イベント",
+      "category": "昭和",
+      "name": "バブル崩壊",
+      "trigger_condition": "1991",
+      "trigger_rate": "時代必発",
+      "description": "バブルが弾けた。",
+      "choices": [
+        {
+          "label": "売却",
+          "effect_text": "損切り"
+        },
+        {
+          "label": "塩漬け",
+          "effect_text": "10年回収不能"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-005",
+      "sheet": "時代イベント",
+      "category": "昭和",
+      "name": "西日本大災害",
+      "trigger_condition": "昭和 / 50歳前後",
+      "trigger_rate": "時代必発",
+      "description": "西日本で大地震。",
+      "choices": [
+        {
+          "label": "義援金",
+          "effect_text": "人間性+ / 資産-"
+        },
+        {
+          "label": "ボランティア",
+          "effect_text": "人間性++ / 時間消費"
+        },
+        {
+          "label": "傍観",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-006",
+      "sheet": "時代イベント",
+      "category": "平成",
+      "name": "就職氷河期",
+      "trigger_condition": "1993〜2005 卒業時",
+      "trigger_rate": "時代依存",
+      "description": "就職難。",
+      "choices": [
+        {
+          "label": "妥協就職",
+          "effect_text": "中小企業へ"
+        },
+        {
+          "label": "院進学",
+          "effect_text": "頭脳+ / 出費"
+        },
+        {
+          "label": "フリーター",
+          "effect_text": "収入低"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-007",
+      "sheet": "時代イベント",
+      "category": "平成",
+      "name": "国際金融危機",
+      "trigger_condition": "2008",
+      "trigger_rate": "時代必発",
+      "description": "金融危機。",
+      "choices": [
+        {
+          "label": "防衛",
+          "effect_text": "資産-15%"
+        },
+        {
+          "label": "無策",
+          "effect_text": "資産-50%"
+        },
+        {
+          "label": "底値買い",
+          "effect_text": "数年で2倍化"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-008",
+      "sheet": "時代イベント",
+      "category": "平成",
+      "name": "東日本大災害",
+      "trigger_condition": "2011",
+      "trigger_rate": "時代必発",
+      "description": "東日本で大地震・原子力事故。",
+      "choices": [
+        {
+          "label": "義援金/ボランティア",
+          "effect_text": "人間性++"
+        },
+        {
+          "label": "西日本へ移住",
+          "effect_text": "資産-100万 / 安全"
+        },
+        {
+          "label": "傍観",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-009",
+      "sheet": "時代イベント",
+      "category": "平成",
+      "name": "金融緩和政策",
+      "trigger_condition": "2013〜",
+      "trigger_rate": "時代必発",
+      "description": "金融緩和で株高。",
+      "choices": [
+        {
+          "label": "株投資",
+          "effect_text": "資産1.5倍"
+        },
+        {
+          "label": "現金保持",
+          "effect_text": "実質目減り"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-010",
+      "sheet": "時代イベント",
+      "category": "平成",
+      "name": "消費税増税",
+      "trigger_condition": "2014, 2019",
+      "trigger_rate": "時代必発",
+      "description": "消費税が上がった。",
+      "choices": [
+        {
+          "label": "駆込み購入",
+          "effect_text": "幸福+ / 一時資産-"
+        },
+        {
+          "label": "我慢",
+          "effect_text": "節約"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-011",
+      "sheet": "時代イベント",
+      "category": "令和",
+      "name": "未知の感染症の流行",
+      "trigger_condition": "2020〜2022",
+      "trigger_rate": "時代必発",
+      "description": "未知の感染症が流行。",
+      "choices": [
+        {
+          "label": "リモートに対応",
+          "effect_text": "適応 / 効率化"
+        },
+        {
+          "label": "業界依存（飲食観光）",
+          "effect_text": "大打撃"
+        },
+        {
+          "label": "投資チャンス",
+          "effect_text": "株底値で拾う"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-013",
+      "sheet": "時代イベント",
+      "category": "令和",
+      "name": "円安・物価高",
+      "trigger_condition": "2022〜",
+      "trigger_rate": "時代必発",
+      "description": "歴史的円安。",
+      "choices": [
+        {
+          "label": "ドル資産保有",
+          "effect_text": "資産防衛"
+        },
+        {
+          "label": "円資産のみ",
+          "effect_text": "実質目減り"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-014",
+      "sheet": "時代イベント",
+      "category": "令和",
+      "name": "AI革命",
+      "trigger_condition": "2023〜",
+      "trigger_rate": "時代必発",
+      "description": "生成AIが登場。",
+      "choices": [
+        {
+          "label": "活用する",
+          "effect_text": "業務効率+"
+        },
+        {
+          "label": "無視",
+          "effect_text": "時代遅れ"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-015",
+      "sheet": "時代イベント",
+      "category": "近未来",
+      "name": "AI特異点",
+      "trigger_condition": "2045前後",
+      "trigger_rate": "時代必発",
+      "description": "AIが人間を超えた。",
+      "choices": [
+        {
+          "label": "AIと協働",
+          "effect_text": "新時代適応"
+        },
+        {
+          "label": "人間至上主義",
+          "effect_text": "失業リスク"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-016",
+      "sheet": "時代イベント",
+      "category": "令和",
+      "name": "AI失業の波",
+      "trigger_condition": "令和 / 28歳前後",
+      "trigger_rate": "時代必発",
+      "description": "多くの職がAIに置換。",
+      "choices": [
+        {
+          "label": "スキル転換",
+          "effect_text": "新職業へ"
+        },
+        {
+          "label": "旧来職継続",
+          "effect_text": "リストラ"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-017",
+      "sheet": "時代イベント",
+      "category": "近未来",
+      "name": "宇宙旅行解禁",
+      "trigger_condition": "2040〜",
+      "trigger_rate": "時代必発",
+      "description": "民間宇宙旅行が普及。",
+      "choices": [
+        {
+          "label": "宇宙旅行する",
+          "effect_text": "資産-1億 / 経験+"
+        },
+        {
+          "label": "見送る",
+          "effect_text": "無風"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-018",
+      "sheet": "時代イベント",
+      "category": "近未来",
+      "name": "ベーシックインカム導入",
+      "trigger_condition": "2050前後",
+      "trigger_rate": "時代必発",
+      "description": "BI制度開始。",
+      "choices": [
+        {
+          "label": "受け取る",
+          "effect_text": "毎月+10万 / 税負担"
+        },
+        {
+          "label": "辞退",
+          "effect_text": "高収入維持"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-019",
+      "sheet": "時代イベント",
+      "category": "近未来",
+      "name": "仮想空間移住",
+      "trigger_condition": "2040〜",
+      "trigger_rate": "時代必発",
+      "description": "仮想空間で生活が中心化。",
+      "choices": [
+        {
+          "label": "移住",
+          "effect_text": "現実放棄 / 仮想で成功"
+        },
+        {
+          "label": "現実重視",
+          "effect_text": "肉体重視 / 旧来"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-020",
+      "sheet": "時代イベント",
+      "category": "近未来",
+      "name": "新型感染症再流行",
+      "trigger_condition": "2030, 2045",
+      "trigger_rate": "時代必発",
+      "description": "新型感染症の再流行。",
+      "choices": [
+        {
+          "label": "対策する",
+          "effect_text": "影響緩和"
+        },
+        {
+          "label": "無策",
+          "effect_text": "健康-30 / 経済打撃"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 10
+    },
+    {
+      "id": "T-101",
+      "sheet": "時代イベント",
+      "category": "時代・昭和",
+      "name": "モーレツ社員時代",
+      "trigger_condition": "昭和 / 25歳〜",
+      "trigger_rate": "条件発動",
+      "description": "残業が当然の時代。",
+      "choices": [
+        {
+          "label": "頑張って出世",
+          "effect_text": "地位+10 / 健康-10"
+        },
+        {
+          "label": "ペースを守る",
+          "effect_text": "幸福+5"
+        },
+        {
+          "label": "海外赴任を希望",
+          "effect_text": "経験+"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "T-102",
+      "sheet": "時代イベント",
+      "category": "時代・昭和",
+      "name": "公害問題",
+      "trigger_condition": "昭和 / 都市部",
+      "trigger_rate": "条件発動",
+      "description": "光化学スモッグや公害病が社会問題に。",
+      "choices": [
+        {
+          "label": "影響を受ける",
+          "effect_text": "健康-10"
+        },
+        {
+          "label": "田舎へ移住",
+          "effect_text": "資産-200万 / 健康+5"
+        },
+        {
+          "label": "気にしない",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "T-103",
+      "sheet": "時代イベント",
+      "category": "時代・昭和",
+      "name": "オイルショック",
+      "trigger_condition": "昭和 / 1973年想定",
+      "trigger_rate": "条件発動",
+      "description": "石油危機で物価急騰。",
+      "choices": [
+        {
+          "label": "節約モード",
+          "effect_text": "資産+貯蓄習慣"
+        },
+        {
+          "label": "投資へ",
+          "effect_text": "リスク高"
+        },
+        {
+          "label": "現状維持",
+          "effect_text": "資産-"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 65
+    },
+    {
+      "id": "T-104",
+      "sheet": "時代イベント",
+      "category": "時代・昭和",
+      "name": "高度成長期の恩恵",
+      "trigger_condition": "昭和 / 20代",
+      "trigger_rate": "条件発動",
+      "description": "経済成長の波に乗る。",
+      "choices": [
+        {
+          "label": "積極投資",
+          "effect_text": "資産+大"
+        },
+        {
+          "label": "貯蓄重視",
+          "effect_text": "資産+中"
+        },
+        {
+          "label": "趣味へ",
+          "effect_text": "幸福+10"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "T-105",
+      "sheet": "時代イベント",
+      "category": "時代・昭和",
+      "name": "三種の神器購入",
+      "trigger_condition": "昭和 / 既婚",
+      "trigger_rate": "条件発動",
+      "description": "テレビ・冷蔵庫・洗濯機を揃える。",
+      "choices": [
+        {
+          "label": "全部揃える",
+          "effect_text": "資産-100万 / 幸福+15"
+        },
+        {
+          "label": "テレビのみ",
+          "effect_text": "資産-30万 / 幸福+5"
+        },
+        {
+          "label": "見送る",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "T-201",
+      "sheet": "時代イベント",
+      "category": "時代・平成",
+      "name": "バブル崩壊の余波",
+      "trigger_condition": "平成 / 30代",
+      "trigger_rate": "条件発動",
+      "description": "投資資産が半減。",
+      "choices": [
+        {
+          "label": "損切り",
+          "effect_text": "資産-大幅"
+        },
+        {
+          "label": "ガチホ",
+          "effect_text": "30年で回復"
+        },
+        {
+          "label": "追加投資",
+          "effect_text": "リスク"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "T-202",
+      "sheet": "時代イベント",
+      "category": "時代・平成",
+      "name": "失われた10年",
+      "trigger_condition": "平成 / 就職活動中",
+      "trigger_rate": "条件発動",
+      "description": "就職氷河期。希望職に就けない。",
+      "choices": [
+        {
+          "label": "妥協して就職",
+          "effect_text": "幸福-5 / 経験+"
+        },
+        {
+          "label": "フリーターから",
+          "effect_text": "リスク+"
+        },
+        {
+          "label": "海外へ",
+          "effect_text": "コミュ+"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "T-203",
+      "sheet": "時代イベント",
+      "category": "時代・平成",
+      "name": "携帯電話普及",
+      "trigger_condition": "平成 / 25歳〜",
+      "trigger_rate": "条件発動",
+      "description": "ガラケーが普及。連絡手段が変わる。",
+      "choices": [
+        {
+          "label": "高機能機を購入",
+          "effect_text": "資産-5万 / コミュ+5"
+        },
+        {
+          "label": "標準機",
+          "effect_text": "資産-2万"
+        },
+        {
+          "label": "持たない派",
+          "effect_text": "幸福+3"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 50
+    },
+    {
+      "id": "T-204",
+      "sheet": "時代イベント",
+      "category": "時代・平成",
+      "name": "ITバブル参戦",
+      "trigger_condition": "平成 / 投資経験",
+      "trigger_rate": "条件発動",
+      "description": "ネット系株が急騰。",
+      "choices": [
+        {
+          "label": "全力買い",
+          "effect_text": "資産大変動 / 80%確率で大損"
+        },
+        {
+          "label": "少額参戦",
+          "effect_text": "資産-or+"
+        },
+        {
+          "label": "傍観",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "T-205",
+      "sheet": "時代イベント",
+      "category": "時代・平成",
+      "name": "サブプライム問題",
+      "trigger_condition": "平成 / 投資経験",
+      "trigger_rate": "条件発動",
+      "description": "金融危機で世界経済混乱。",
+      "choices": [
+        {
+          "label": "リスク回避",
+          "effect_text": "資産+守り"
+        },
+        {
+          "label": "逆張り",
+          "effect_text": "高リスク高リターン"
+        },
+        {
+          "label": "傍観",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 65
+    },
+    {
+      "id": "T-301",
+      "sheet": "時代イベント",
+      "category": "時代・令和",
+      "name": "副業解禁の波",
+      "trigger_condition": "令和 / 25歳〜",
+      "trigger_rate": "条件発動",
+      "description": "副業が当たり前の時代に。",
+      "choices": [
+        {
+          "label": "本格的に副業",
+          "effect_text": "資産+月+5万 / 健康-"
+        },
+        {
+          "label": "ぼちぼち",
+          "effect_text": "資産+月+2万"
+        },
+        {
+          "label": "本業に集中",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 65
+    },
+    {
+      "id": "T-302",
+      "sheet": "時代イベント",
+      "category": "時代・令和",
+      "name": "リモートワーク化",
+      "trigger_condition": "令和 / 会社員",
+      "trigger_rate": "条件発動",
+      "description": "在宅勤務が常態化。",
+      "choices": [
+        {
+          "label": "完全リモート",
+          "effect_text": "幸福+10 / コミュ-3"
+        },
+        {
+          "label": "週2出社",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "出社継続",
+          "effect_text": "コミュ+5"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "T-303",
+      "sheet": "時代イベント",
+      "category": "時代・令和",
+      "name": "SNSバズり",
+      "trigger_condition": "令和 / センス>=70",
+      "trigger_rate": "年3%",
+      "description": "投稿が突如バズる。",
+      "choices": [
+        {
+          "label": "活かして発信",
+          "effect_text": "コミュ+10 / 影響力+"
+        },
+        {
+          "label": "燃え尽きる",
+          "effect_text": "幸福-5"
+        },
+        {
+          "label": "アカ削除",
+          "effect_text": "幸福+3"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 55
+    },
+    {
+      "id": "T-304",
+      "sheet": "時代イベント",
+      "category": "時代・令和",
+      "name": "FIRE目指す",
+      "trigger_condition": "令和 / 30歳〜 / 資産2000万",
+      "trigger_rate": "条件発動",
+      "description": "早期リタイアを目指す。",
+      "choices": [
+        {
+          "label": "全力でFIRE",
+          "effect_text": "節約モード / 健康-"
+        },
+        {
+          "label": "緩やかに",
+          "effect_text": "資産+貯蓄"
+        },
+        {
+          "label": "今のままで",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "T-305",
+      "sheet": "時代イベント",
+      "category": "時代・令和",
+      "name": "AI失業の波",
+      "trigger_condition": "令和 / 事務職",
+      "trigger_rate": "条件発動",
+      "description": "AIにより業務が自動化。職を失うリスク。",
+      "choices": [
+        {
+          "label": "AIスキル習得",
+          "effect_text": "頭脳+10 / 適応"
+        },
+        {
+          "label": "別職種へ",
+          "effect_text": "経験+リスク"
+        },
+        {
+          "label": "対抗",
+          "effect_text": "幸福-"
+        }
+      ],
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "T-401",
+      "sheet": "時代イベント",
+      "category": "時代・近未来",
+      "name": "BMI接続インターフェース",
+      "trigger_condition": "近未来 / 35歳〜",
+      "trigger_rate": "条件発動",
+      "description": "脳直結インターフェースが普及。",
+      "choices": [
+        {
+          "label": "早期採用",
+          "effect_text": "頭脳+15 / 健康-5"
+        },
+        {
+          "label": "様子見",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "拒否",
+          "effect_text": "幸福+3"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 65
+    },
+    {
+      "id": "T-402",
+      "sheet": "時代イベント",
+      "category": "時代・近未来",
+      "name": "宇宙旅行",
+      "trigger_condition": "近未来 / 資産1億",
+      "trigger_rate": "条件発動",
+      "description": "民間宇宙旅行のチャンス。",
+      "choices": [
+        {
+          "label": "一生の思い出",
+          "effect_text": "資産-5000万 / 幸福+30"
+        },
+        {
+          "label": "近隣航行",
+          "effect_text": "資産-1000万"
+        },
+        {
+          "label": "見送る",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 60
+    },
+    {
+      "id": "T-403",
+      "sheet": "時代イベント",
+      "category": "時代・近未来",
+      "name": "ベーシックインカム導入",
+      "trigger_condition": "近未来 / 全国民",
+      "trigger_rate": "条件発動",
+      "description": "毎月一定額が支給される時代に。",
+      "choices": [
+        {
+          "label": "本業継続",
+          "effect_text": "資産+月+10万"
+        },
+        {
+          "label": "副業に注力",
+          "effect_text": "資産+変動"
+        },
+        {
+          "label": "完全リタイア",
+          "effect_text": "幸福+10"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "T-404",
+      "sheet": "時代イベント",
+      "category": "時代・近未来",
+      "name": "クローン治療",
+      "trigger_condition": "近未来 / 重病",
+      "trigger_rate": "条件発動",
+      "description": "失った臓器をクローン培養で再生。",
+      "choices": [
+        {
+          "label": "受ける",
+          "effect_text": "資産-2億 / 健康+30"
+        },
+        {
+          "label": "通常治療",
+          "effect_text": "資産-1000万 / 健康+15"
+        },
+        {
+          "label": "受けない",
+          "effect_text": "リスク"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 65
+    },
+    {
+      "id": "T-405",
+      "sheet": "時代イベント",
+      "category": "時代・近未来",
+      "name": "AI伴侶",
+      "trigger_condition": "近未来 / 独身 / 50歳〜",
+      "trigger_rate": "条件発動",
+      "description": "AIパートナーとの生活が選択肢に。",
+      "choices": [
+        {
+          "label": "AIと暮らす",
+          "effect_text": "幸福+15 / コミュ-5"
+        },
+        {
+          "label": "趣味的に",
+          "effect_text": "幸福+5"
+        },
+        {
+          "label": "人間関係優先",
+          "effect_text": "コミュ+"
+        }
+      ],
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 55
+    },
+    {
+      "id": "M-001",
+      "sheet": "マイルストーン",
+      "category": "成長",
+      "name": "幼少期入学",
+      "trigger_condition": "6歳到達",
+      "trigger_rate": "必発",
+      "description": "小学校に入学。新しい世界が始まる。",
+      "choices": [
+        {
+          "label": "公立で素直に通う",
+          "effect_text": "頭脳+2 / コミュ+2"
+        },
+        {
+          "label": "私立で英才教育",
+          "effect_text": "資産-200万 / 頭脳+5"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 90
+    },
+    {
+      "id": "M-002",
+      "sheet": "マイルストーン",
+      "category": "成長",
+      "name": "中学進学",
+      "trigger_condition": "12歳到達",
+      "trigger_rate": "必発",
+      "description": "中学進学。勉強と部活、友達関係が広がる。",
+      "choices": [
+        {
+          "label": "勉強重視",
+          "effect_text": "頭脳+5 / 幸福-2"
+        },
+        {
+          "label": "部活重視",
+          "effect_text": "肉体+5 / コミュ+3"
+        },
+        {
+          "label": "バランス型",
+          "effect_text": "全能力+2"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 90
+    },
+    {
+      "id": "M-003",
+      "sheet": "マイルストーン",
+      "category": "成長",
+      "name": "高校進学",
+      "trigger_condition": "15歳到達",
+      "trigger_rate": "必発",
+      "description": "高校選択。進路の起点。",
+      "choices": [
+        {
+          "label": "進学校",
+          "effect_text": "頭脳+8 / 資産-50万"
+        },
+        {
+          "label": "公立普通",
+          "effect_text": "頭脳+3"
+        },
+        {
+          "label": "専門高校",
+          "effect_text": "センス+5"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 90
+    },
+    {
+      "id": "M-004",
+      "sheet": "マイルストーン",
+      "category": "進路",
+      "name": "大学進学or就職",
+      "trigger_condition": "18歳到達",
+      "trigger_rate": "必発",
+      "description": "大学進学か就職か。人生の最初の大きな分岐。",
+      "choices": [
+        {
+          "label": "大学進学",
+          "effect_text": "頭脳+10 / 資産-300万"
+        },
+        {
+          "label": "専門・短大",
+          "effect_text": "資産-150万 / センス+5"
+        },
+        {
+          "label": "高卒で就職",
+          "effect_text": "資産+50万 / 経験+"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 95
+    },
+    {
+      "id": "M-005",
+      "sheet": "マイルストーン",
+      "category": "進路",
+      "name": "初就職",
+      "trigger_condition": "22歳到達 or 18歳就職フラグ",
+      "trigger_rate": "必発",
+      "description": "初めての就職。社会人スタート。",
+      "choices": [
+        {
+          "label": "大手企業",
+          "effect_text": "資産+月20万 / 地位+5"
+        },
+        {
+          "label": "中小・地元",
+          "effect_text": "資産+月15万 / 幸福+5"
+        },
+        {
+          "label": "起業準備",
+          "effect_text": "資産-100万 / リスク高"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 95
+    },
+    {
+      "id": "M-006",
+      "sheet": "マイルストーン",
+      "category": "家族",
+      "name": "結婚",
+      "trigger_condition": "条件発動（25歳〜）",
+      "trigger_rate": "条件発動",
+      "description": "結婚の機会到来。",
+      "choices": [
+        {
+          "label": "結婚する",
+          "effect_text": "幸福+10 / 月支出+8万"
+        },
+        {
+          "label": "もう少し待つ",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "未婚を選ぶ",
+          "effect_text": "幸福-3 / 自由+"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 90
+    },
+    {
+      "id": "M-007",
+      "sheet": "マイルストーン",
+      "category": "家族",
+      "name": "出産",
+      "trigger_condition": "結婚後 / 28歳〜",
+      "trigger_rate": "条件発動",
+      "description": "新しい命を迎える。",
+      "choices": [
+        {
+          "label": "産み育てる",
+          "effect_text": "幸福+15 / 支出+月15万"
+        },
+        {
+          "label": "様子見",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "予定なし",
+          "effect_text": "幸福-2"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 90
+    },
+    {
+      "id": "M-008",
+      "sheet": "マイルストーン",
+      "category": "家族",
+      "name": "住宅購入",
+      "trigger_condition": "30歳〜 / 資産2000万円〜",
+      "trigger_rate": "条件発動",
+      "description": "マイホーム購入を検討。",
+      "choices": [
+        {
+          "label": "新築一戸建て",
+          "effect_text": "資産-3000万 / 35年ローン"
+        },
+        {
+          "label": "中古マンション",
+          "effect_text": "資産-2000万 / 25年ローン"
+        },
+        {
+          "label": "賃貸継続",
+          "effect_text": "資産変動なし"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 85
+    },
+    {
+      "id": "M-009",
+      "sheet": "マイルストーン",
+      "category": "進路",
+      "name": "転職",
+      "trigger_condition": "条件発動",
+      "trigger_rate": "条件発動",
+      "description": "より良い条件の職を探す。",
+      "choices": [
+        {
+          "label": "転職する",
+          "effect_text": "資産+月+5万 / 適応-5"
+        },
+        {
+          "label": "現職で頑張る",
+          "effect_text": "据え置き"
+        },
+        {
+          "label": "起業を検討",
+          "effect_text": "リスク高"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 80
+    },
+    {
+      "id": "M-010",
+      "sheet": "マイルストーン",
+      "category": "進路",
+      "name": "起業",
+      "trigger_condition": "条件発動 / 資産1000万円〜",
+      "trigger_rate": "条件発動",
+      "description": "自分で会社を立ち上げる。",
+      "choices": [
+        {
+          "label": "起業する",
+          "effect_text": "資産-500万 / 高リスク高リターン"
+        },
+        {
+          "label": "副業から",
+          "effect_text": "資産-100万 / 中リスク"
+        },
+        {
+          "label": "見送る",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 85
+    },
+    {
+      "id": "M-011",
+      "sheet": "マイルストーン",
+      "category": "成長",
+      "name": "転居・上京",
+      "trigger_condition": "条件発動",
+      "trigger_rate": "条件発動",
+      "description": "新天地で再出発。",
+      "choices": [
+        {
+          "label": "都市部へ",
+          "effect_text": "資産-200万 / 機会+"
+        },
+        {
+          "label": "近郊で",
+          "effect_text": "資産-50万"
+        },
+        {
+          "label": "現居維持",
+          "effect_text": "据え置き"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 70
+    },
+    {
+      "id": "M-012",
+      "sheet": "マイルストーン",
+      "category": "家族",
+      "name": "親の介護",
+      "trigger_condition": "親の高齢化 / 50歳〜",
+      "trigger_rate": "条件発動",
+      "description": "親に介護が必要になった。",
+      "choices": [
+        {
+          "label": "在宅で介護",
+          "effect_text": "幸福-8 / 支出+月3万"
+        },
+        {
+          "label": "施設入所",
+          "effect_text": "資産-月15万"
+        },
+        {
+          "label": "家族で分担",
+          "effect_text": "幸福-3"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 80
+    },
+    {
+      "id": "M-013",
+      "sheet": "マイルストーン",
+      "category": "進路",
+      "name": "退職・第二の人生",
+      "trigger_condition": "60歳到達 or 65歳到達",
+      "trigger_rate": "必発",
+      "description": "現役引退。残りの人生をどう生きるか。",
+      "choices": [
+        {
+          "label": "完全引退",
+          "effect_text": "収入0 / 年金開始"
+        },
+        {
+          "label": "再雇用",
+          "effect_text": "収入半減 / 体力-"
+        },
+        {
+          "label": "起業・趣味化",
+          "effect_text": "新たな収入源"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 80
+    },
+    {
+      "id": "M-014",
+      "sheet": "マイルストーン",
+      "category": "成長",
+      "name": "孫の誕生",
+      "trigger_condition": "子供の結婚後 / 50歳〜",
+      "trigger_rate": "条件発動",
+      "description": "孫が生まれる。",
+      "choices": [
+        {
+          "label": "全力でサポート",
+          "effect_text": "幸福+15 / 支出+月3万"
+        },
+        {
+          "label": "適度に関わる",
+          "effect_text": "幸福+8"
+        },
+        {
+          "label": "距離を置く",
+          "effect_text": "幸福+3"
+        }
+      ],
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "unlocks_skill": null,
+      "chain_from": null,
+      "priority": 75
+    }
+  ]
+}

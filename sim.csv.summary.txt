@@ -1,0 +1,24 @@
+=== AI Simulation Summary ===
+Total chars       : 1000
+Reached age 80    : 227 (22.7%)
+Avg lifespan      : 77.0
+Bankruptcy rate   : 0.0%
+Avg events fired  : 0.0
+
+Avg lifespan by era:
+  昭和: 75.5
+  平成: 76.9
+  令和: 77.0
+  近未来: 78.6
+
+Avg lifespan by strength:
+  頭脳: 75.5
+  肉体: 81.7
+  コミュ: 76.2
+  センス: 75.8
+  運: 75.9
+
+Death cause distribution:
+  病死: 768 (76.8%)
+  寿命: 170 (17.0%)
+  老衰: 62 (6.2%)

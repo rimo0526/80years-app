@@ -1,0 +1,20 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "build/**"
+  language:
+    strict-casts: true
+    strict-raw-types: true
+
+linter:
+  rules:
+    - prefer_single_quotes
+    - require_trailing_commas
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - sort_child_properties_last
+    - use_key_in_widget_constructors

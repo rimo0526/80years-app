@@ -1,0 +1,103 @@
+=== START 2026/05/08 10:59:16.26 === 
+ 
+=== [1] flutter pub get === 
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 67.0.0 (100.0.0 available)
++ _flutterfire_internals 1.3.41 (1.3.69 available)
+  analyzer 6.4.1 (13.0.0 available)
+  analyzer_plugin 0.11.3 (0.14.9 available)
+  build 2.4.1 (4.0.6 available)
+  build_config 1.1.2 (1.3.0 available)
+  build_resolvers 2.4.2 (3.0.4 available)
+  build_runner 2.4.13 (2.15.0 available)
+  build_runner_core 7.3.2 (9.3.2 available)
+  cli_util 0.4.2 (0.5.1 available)
++ cross_file 0.3.5+2
+  custom_lint 0.6.4 (0.8.1 available)
+  custom_lint_builder 0.6.4 (0.8.1 available)
+  custom_lint_core 0.6.3 (0.8.2 available)
+  dart_style 2.3.6 (3.1.9 available)
++ firebase_analytics 11.3.0 (12.3.0 available)
++ firebase_analytics_platform_interface 4.2.2 (5.1.1 available)
++ firebase_analytics_web 0.5.9+2 (0.6.1+5 available)
++ firebase_core 3.4.0 (4.7.0 available)
++ firebase_core_platform_interface 5.4.2 (6.0.3 available)
++ firebase_core_web 2.17.5 (3.6.0 available)
++ firebase_crashlytics 4.1.0 (5.2.0 available)
++ firebase_crashlytics_platform_interface 3.6.41 (3.8.20 available)
+  flutter_lints 4.0.0 (6.0.0 available)
+  flutter_riverpod 2.6.1 (3.3.1 available)
+  freezed_annotation 2.4.4 (3.1.0 available)
+  go_router 14.8.1 (17.2.3 available)
++ google_mobile_ads 5.3.1 (8.0.0 available)
+  intl 0.19.0 (0.20.2 available)
+  json_annotation 4.9.0 (4.11.0 available)
+  json_serializable 6.8.0 (6.13.2 available)
+  lints 4.0.0 (6.1.0 available)
+  matcher 0.12.19 (0.12.20 available)
+  meta 1.17.0 (1.18.2 available)
+< mime 1.0.6 (was 2.0.0) (2.0.0 available)
+  native_toolchain_c 0.17.6 (0.18.0 available)
+  riverpod 2.6.1 (3.2.1 available)
+  riverpod_analyzer_utils 0.5.1 (0.5.10 available)
+  riverpod_annotation 2.6.1 (4.0.2 available)
+  riverpod_generator 2.4.0 (4.0.3 available)
+  riverpod_lint 2.3.10 (3.1.3 available)
+  rxdart 0.27.7 (0.28.0 available)
++ share_plus 9.0.0 (13.1.0 available)
++ share_plus_platform_interface 4.0.0 (7.1.0 available)
+  shelf_web_socket 2.0.1 (3.0.0 available)
+  source_gen 1.5.0 (4.2.3 available)
+  source_helper 1.3.5 (1.3.12 available)
+  test_api 0.7.10 (0.7.12 available)
++ url_launcher 6.3.2
++ url_launcher_android 6.3.29
++ url_launcher_ios 6.4.1
++ url_launcher_linux 3.2.2
++ url_launcher_macos 3.2.5
++ url_launcher_platform_interface 2.3.2
++ url_launcher_web 2.4.3
++ url_launcher_windows 3.1.5
+  vector_math 2.2.0 (2.3.0 available)
+< web 0.5.1 (was 1.1.1) (1.1.1 available)
++ webview_flutter 4.13.1
++ webview_flutter_android 4.12.0
++ webview_flutter_platform_interface 2.15.1
++ webview_flutter_wkwebview 3.25.1
++ win32 5.15.0 (6.2.0 available)
+Changed 28 dependencies!
+50 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+ 
+=== [2] dart run sim_runner 1000 sim.csv === 
+Running build hooks...Running build hooks...Starting simulation: 1000 chars
+Done in 0s
+CSV written: sim.csv
+=== AI Simulation Summary ===
+Total chars       : 1000
+Reached age 80    : 227 (22.7%)
+Avg lifespan      : 77.0
+Bankruptcy rate   : 0.0%
+Avg events fired  : 0.0
+
+Avg lifespan by era:
+  昭和: 75.5
+  平成: 76.9
+  令和: 77.0
+  近未来: 78.6
+
+Avg lifespan by strength:
+  頭脳: 75.5
+  肉体: 81.7
+  コミュ: 76.2
+  センス: 75.8
+  運: 75.9
+
+Death cause distribution:
+  病死: 768 (76.8%)
+  寿命: 170 (17.0%)
+  老衰: 62 (6.2%)
+
+ 
+=== END 2026/05/08 10:59:28.62 === 
