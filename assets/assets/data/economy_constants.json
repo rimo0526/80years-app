@@ -1,0 +1,31 @@
+{
+  "_comment": "GDD §9 家計の定数。Phase 1 で投資商品リストや支出比率を詳細化。",
+  "version": 1,
+  "income_categories": ["給与", "副業", "投資", "不労所得", "臨時収入", "その他"],
+  "expense_categories": ["住居", "食費", "交通", "通信", "娯楽", "交際", "保険", "その他"],
+  "default_expense_ratios": {
+    "住居": 0.25,
+    "食費": 0.15,
+    "交通": 0.05,
+    "通信": 0.05,
+    "娯楽": 0.10,
+    "交際": 0.05,
+    "保険": 0.05,
+    "その他": 0.10
+  },
+  "investment_products": [
+    {"id": "deposit", "name": "預金（普通）", "expected_monthly": "era_rate/12", "stddev": 0},
+    {"id": "deposit_term", "name": "預金（定期）", "expected_monthly": "era_rate/12*1.5", "stddev": 0,
+     "unlock": {"deposit_min": 1000000}},
+    {"id": "stock", "name": "株式", "expected_monthly": 0.004, "stddev": 0.04,
+     "unlock": {"asset_min": 500000}},
+    {"id": "stock_individual", "name": "株式（個別）", "expected_monthly": 0.005, "stddev": 0.08,
+     "unlock": {"stock_total_min": 1000000, "brain_min": 50}},
+    {"id": "risk", "name": "リスク資産", "expected_monthly": 0.008, "stddev": 0.12,
+     "unlock": {"asset_min": 2000000, "luck_min": 40}},
+    {"id": "real_estate", "name": "不動産", "expected_monthly": 0.003, "stddev": 0.01,
+     "unlock": {"asset_min": 10000000}},
+    {"id": "crypto", "name": "暗号通貨", "expected_monthly": 0.012, "stddev": 0.28,
+     "unlock": {"era_min": "令和", "asset_min": 1000000, "luck_min": 40}}
+  ]
+}

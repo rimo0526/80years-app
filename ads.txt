@@ -1,0 +1,6 @@
+# ads.txt — Authorized Digital Sellers
+# AdSense 申請承認後、以下の XXXXXXXXXXXXXXXX を実値に置換してください
+# 参考：https://support.google.com/adsense/answer/7532444
+#
+# 申請前は以下の行はコメント扱いとして配信されます（本番では行頭#を除去）
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="80年の人生を1時間で生き直す、リプレイ性重視のローグライク人生シム">
+  <title>資本主義ゲーム</title>
+
+  <!-- Flutter が build 時に --base-href の値を埋め込む -->
+  <base href="/80years-app/">
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- ============================================================
+       AdSense 所有権確認用メタタグ（審査時に必須）
+       Phase 1 GA 後の AdSense 申請時に下記コメントを解除＋値置換
+       ============================================================ -->
+  <!-- <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX"> -->
+
+  <!-- 日本語フォント（Flutter Web CanvasKit の豆腐文字対策） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- ============================================================
+       Google AdSense（GDD §15.1.4 / Phase 1 で有効化）
+       Phase 0 では雛形のみ。本番デプロイ前に以下のコメント解除＋
+       data-ad-client を実値に置換してください。
+       ============================================================ -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          crossorigin="anonymous"></script> -->
+
+  <!-- ============================================================
+       Google Analytics 4（GDD §17.2.6 / 同意UI後に発火）
+       ============================================================ -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    // gtag('config', 'G-XXXXXXXXXX');  // 同意取得後にDart側から呼ぶ
+  </script> -->
+
+  <style>
+    body { margin: 0; padding: 0; background: #ECEAE3; }
+    #loading {
+      position: fixed; inset: 0; display: flex;
+      align-items: center; justify-content: center;
+      flex-direction: column; gap: 12px;
+      font-family: -apple-system, "Hiragino Kaku Gothic ProN", sans-serif;
+      color: #2C2C2A; font-size: 14px;
+    }
+    #loading .spinner {
+      width: 32px; height: 32px;
+      border: 3px solid #D3D1C7; border-top-color: #378ADD;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <div class="spinner"></div>
+    <div>資本主義ゲーム を読み込んでいます…</div>
+  </div>
+
+  <!-- 広告スロット（バナー、Phase 1 で有効化） -->
+  <!--
+  <div id="ad-banner-bottom" style="position:fixed;bottom:0;left:0;right:0;height:50px;text-align:center;z-index:100;">
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:320px;height:50px"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="XXXXXXXXXX"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+  -->
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

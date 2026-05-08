@@ -1,0 +1,1411 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-05-08T10:25:22.489032+09:00",
+  "source_xlsx_version": "v1.0",
+  "achievements": [
+    {
+      "id": "A-001",
+      "category": "キャリア",
+      "grade": "ブロンズ",
+      "title": "初就職達成",
+      "description": "初めて就職した節目を達成。",
+      "unlock_condition": "マイルストーン「初就職」発火後",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「働き始めの一歩」",
+      "notes": "確実に解放可"
+    },
+    {
+      "id": "A-002",
+      "category": "キャリア",
+      "grade": "ブロンズ",
+      "title": "高校卒業",
+      "description": "高校卒業のマイルストーンを達成。",
+      "unlock_condition": "18歳到達＋高校進学ルート",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「高校卒業」",
+      "notes": null
+    },
+    {
+      "id": "A-003",
+      "category": "キャリア",
+      "grade": "ブロンズ",
+      "title": "大学卒業",
+      "description": "大学卒業のマイルストーンを達成。",
+      "unlock_condition": "22歳到達＋大学進学ルート",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「大学卒業」",
+      "notes": null
+    },
+    {
+      "id": "A-004",
+      "category": "キャリア",
+      "grade": "ブロンズ",
+      "title": "副業実施",
+      "description": "副業を1度でも経験。",
+      "unlock_condition": "副業アクション or イベント発火を1回",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「副業デビュー」",
+      "notes": null
+    },
+    {
+      "id": "A-005",
+      "category": "キャリア",
+      "grade": "ブロンズ",
+      "title": "転職経験",
+      "description": "転職を1回経験。",
+      "unlock_condition": "転職マイルストーン1回",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「キャリアチェンジ」",
+      "notes": null
+    },
+    {
+      "id": "A-006",
+      "category": "キャリア",
+      "grade": "シルバー",
+      "title": "起業成功（小）",
+      "description": "起業して資産+1000万円を達成。",
+      "unlock_condition": "起業マイルストーン後、資産+1000万円",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「起業家」",
+      "notes": "起業条件は§3.4.3"
+    },
+    {
+      "id": "A-007",
+      "category": "キャリア",
+      "grade": "シルバー",
+      "title": "大学院修了",
+      "description": "大学院を修了。",
+      "unlock_condition": "院進学ルート＋24歳到達",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「修士」",
+      "notes": null
+    },
+    {
+      "id": "A-008",
+      "category": "キャリア",
+      "grade": "シルバー",
+      "title": "副業が本業を超過",
+      "description": "副業収入が本業給与を超える月を経験。",
+      "unlock_condition": "月の副業収入>給与",
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "reward": "称号「副業マスター」",
+      "notes": "副業解禁の文化背景に依存"
+    },
+    {
+      "id": "A-009",
+      "category": "キャリア",
+      "grade": "シルバー",
+      "title": "海外赴任成功",
+      "description": "海外赴任のチャンスを掴む。",
+      "unlock_condition": "L-010「海外赴任打診」を受け入れ",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「グローバル人材」",
+      "notes": null
+    },
+    {
+      "id": "A-010",
+      "category": "キャリア",
+      "grade": "ゴールド",
+      "title": "起業＋資産1億",
+      "description": "起業した上で資産1億円相当に到達。",
+      "unlock_condition": "起業ルート＋資産1億円相当",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「経営者」＋戒名フォント1種",
+      "notes": null
+    },
+    {
+      "id": "A-011",
+      "category": "キャリア",
+      "grade": "ゴールド",
+      "title": "役職プロ",
+      "description": "社会的地位80以上で死亡。",
+      "unlock_condition": "死亡時、社会的地位>=80",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「重鎮」",
+      "notes": null
+    },
+    {
+      "id": "A-012",
+      "category": "キャリア",
+      "grade": "ゴールド",
+      "title": "三足のわらじ",
+      "description": "副業＋本業＋投資すべてで黒字を5年連続。",
+      "unlock_condition": "5年連続で3カテゴリ収入>0",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「三足のわらじ」",
+      "notes": null
+    },
+    {
+      "id": "A-013",
+      "category": "キャリア",
+      "grade": "プラチナ",
+      "title": "全職業カテゴリ経験",
+      "description": "8職業カテゴリ全てを家系合算で経験。",
+      "unlock_condition": "8職業（公務員/会社員/専門職/自営業/フリーター/起業家/不労所得/退職）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓石デザイン1種＋称号「キャリア仙人」",
+      "notes": "周回前提"
+    },
+    {
+      "id": "A-014",
+      "category": "家族",
+      "grade": "ブロンズ",
+      "title": "結婚達成",
+      "description": "初めて結婚を経験。",
+      "unlock_condition": "結婚マイルストーン1回",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「結婚」",
+      "notes": null
+    },
+    {
+      "id": "A-015",
+      "category": "家族",
+      "grade": "ブロンズ",
+      "title": "出産経験",
+      "description": "子供を1人持つ。",
+      "unlock_condition": "出産マイルストーン1回",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「親」",
+      "notes": null
+    },
+    {
+      "id": "A-016",
+      "category": "家族",
+      "grade": "ブロンズ",
+      "title": "親と入学式",
+      "description": "子供の入学式に参加。",
+      "unlock_condition": "S-007「入学式」イベント参加",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「家族の節目」",
+      "notes": null
+    },
+    {
+      "id": "A-017",
+      "category": "家族",
+      "grade": "ブロンズ",
+      "title": "親の介護経験",
+      "description": "親の介護イベントを経験。",
+      "unlock_condition": "L-005「親の介護必要に」発火",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「親孝行」",
+      "notes": null
+    },
+    {
+      "id": "A-018",
+      "category": "家族",
+      "grade": "シルバー",
+      "title": "子供3人",
+      "description": "子供を3人以上持つ。",
+      "unlock_condition": "出産マイルストーン3回以上",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「大家族」",
+      "notes": null
+    },
+    {
+      "id": "A-019",
+      "category": "家族",
+      "grade": "シルバー",
+      "title": "添い遂げる",
+      "description": "結婚から60年以上連れ添う。",
+      "unlock_condition": "結婚から60年経過＋配偶者と離婚なし",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「終生の伴侶」",
+      "notes": null
+    },
+    {
+      "id": "A-020",
+      "category": "家族",
+      "grade": "シルバー",
+      "title": "三世代同居",
+      "description": "子供と親が同居する期間がある。",
+      "unlock_condition": "三世代同居フラグ発生",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「三世代の絆」",
+      "notes": null
+    },
+    {
+      "id": "A-021",
+      "category": "家族",
+      "grade": "ゴールド",
+      "title": "孫の代まで生存",
+      "description": "孫の誕生イベント発火後20年以上生存。",
+      "unlock_condition": "L-038「孫が生まれる」発火＋20年経過",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「祖父母」＋墓標装飾",
+      "notes": null
+    },
+    {
+      "id": "A-022",
+      "category": "家族",
+      "grade": "ゴールド",
+      "title": "子全員大学進学",
+      "description": "子供全員が大学を卒業。",
+      "unlock_condition": "全子供の大学卒業フラグ",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「教育の家系」",
+      "notes": null
+    },
+    {
+      "id": "A-023",
+      "category": "家族",
+      "grade": "プラチナ",
+      "title": "5世代続く家系",
+      "description": "5周回連続でプレイ完走（5世代の家系）。",
+      "unlock_condition": "周回5代達成",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓石デザイン1種＋称号「血脈の守人」",
+      "notes": "周回前提"
+    },
+    {
+      "id": "A-024",
+      "category": "資産",
+      "grade": "ブロンズ",
+      "title": "資産100万円",
+      "description": "資産100万円相当に到達。",
+      "unlock_condition": "資産>=100万円相当",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「貯蓄家」",
+      "notes": null
+    },
+    {
+      "id": "A-025",
+      "category": "資産",
+      "grade": "ブロンズ",
+      "title": "資産1000万円",
+      "description": "資産1000万円相当に到達。",
+      "unlock_condition": "資産>=1000万円相当",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「中産階級」",
+      "notes": null
+    },
+    {
+      "id": "A-026",
+      "category": "資産",
+      "grade": "ブロンズ",
+      "title": "株式投資開始",
+      "description": "初めて株式を購入。",
+      "unlock_condition": "投資配分で株式が0以上になる",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「投資家見習い」",
+      "notes": null
+    },
+    {
+      "id": "A-027",
+      "category": "資産",
+      "grade": "ブロンズ",
+      "title": "持ち家購入",
+      "description": "住宅を購入。",
+      "unlock_condition": "住宅購入フラグ",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「マイホーム」",
+      "notes": null
+    },
+    {
+      "id": "A-028",
+      "category": "資産",
+      "grade": "ブロンズ",
+      "title": "副業収入",
+      "description": "副業から収入を得る。",
+      "unlock_condition": "副業収入>0",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「副収入」",
+      "notes": null
+    },
+    {
+      "id": "A-029",
+      "category": "資産",
+      "grade": "シルバー",
+      "title": "資産1億円",
+      "description": "資産1億円相当に到達。",
+      "unlock_condition": "資産>=1億円相当",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「億万長者」",
+      "notes": null
+    },
+    {
+      "id": "A-030",
+      "category": "資産",
+      "grade": "シルバー",
+      "title": "暗号通貨10倍化",
+      "description": "暗号通貨投資で10倍化を達成。",
+      "unlock_condition": "暗号通貨保有額が一時10倍化",
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "reward": "称号「クリプト勝者」",
+      "notes": "I-010連動"
+    },
+    {
+      "id": "A-031",
+      "category": "資産",
+      "grade": "シルバー",
+      "title": "不動産投資成功",
+      "description": "不動産投資で家賃収入を得る。",
+      "unlock_condition": "不動産投資の家賃収入>0",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「大家」",
+      "notes": null
+    },
+    {
+      "id": "A-032",
+      "category": "資産",
+      "grade": "シルバー",
+      "title": "月収100万円超",
+      "description": "月収100万円相当を超える。",
+      "unlock_condition": "月次総収入>100万円相当",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「高所得者」",
+      "notes": null
+    },
+    {
+      "id": "A-033",
+      "category": "資産",
+      "grade": "ゴールド",
+      "title": "資産10億円",
+      "description": "資産10億円相当に到達。",
+      "unlock_condition": "資産>=10億円相当",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「大富豪」＋墓標装飾",
+      "notes": null
+    },
+    {
+      "id": "A-034",
+      "category": "資産",
+      "grade": "ゴールド",
+      "title": "暗号通貨100倍化",
+      "description": "暗号通貨投資で100倍化を達成。",
+      "unlock_condition": "暗号通貨保有額が一時100倍化",
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "reward": "称号「クリプト伝説」",
+      "notes": null
+    },
+    {
+      "id": "A-035",
+      "category": "資産",
+      "grade": "ゴールド",
+      "title": "全7投資商品で利益",
+      "description": "7投資商品すべてで利益を出す。",
+      "unlock_condition": "預金/定期/株式/個別/リスク/不動産/暗号通貨で利益確定",
+      "applicable_eras": [
+        "令和",
+        "近未来"
+      ],
+      "is_hidden": false,
+      "reward": "称号「投資家」",
+      "notes": "暗号通貨条件で令和以降のみ"
+    },
+    {
+      "id": "A-036",
+      "category": "資産",
+      "grade": "プラチナ",
+      "title": "資産100億円",
+      "description": "資産100億円相当に到達。",
+      "unlock_condition": "資産>=100億円相当",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓石デザイン1種＋称号「経済界の頂点」",
+      "notes": "実質コンプ系"
+    },
+    {
+      "id": "A-037",
+      "category": "能力",
+      "grade": "ブロンズ",
+      "title": "能力50到達",
+      "description": "いずれか1能力が50到達。",
+      "unlock_condition": "能力（任意）>=50",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「成長の証」",
+      "notes": null
+    },
+    {
+      "id": "A-038",
+      "category": "能力",
+      "grade": "ブロンズ",
+      "title": "能力70到達",
+      "description": "いずれか1能力が70到達。",
+      "unlock_condition": "能力（任意）>=70",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「専門家」",
+      "notes": null
+    },
+    {
+      "id": "A-039",
+      "category": "能力",
+      "grade": "ブロンズ",
+      "title": "全能力50",
+      "description": "全5能力が50以上。",
+      "unlock_condition": "全能力>=50",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「万能型」",
+      "notes": null
+    },
+    {
+      "id": "A-040",
+      "category": "能力",
+      "grade": "ブロンズ",
+      "title": "スキル5個取得",
+      "description": "スキルツリーで5ノード解放。",
+      "unlock_condition": "解放スキル数>=5",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「学び始め」",
+      "notes": null
+    },
+    {
+      "id": "A-041",
+      "category": "能力",
+      "grade": "シルバー",
+      "title": "能力85到達",
+      "description": "いずれか1能力が85到達。",
+      "unlock_condition": "能力（任意）>=85",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「達人」",
+      "notes": null
+    },
+    {
+      "id": "A-042",
+      "category": "能力",
+      "grade": "シルバー",
+      "title": "全能力70到達",
+      "description": "全5能力が70以上。",
+      "unlock_condition": "全能力>=70",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「五芒星」",
+      "notes": null
+    },
+    {
+      "id": "A-043",
+      "category": "能力",
+      "grade": "シルバー",
+      "title": "スキル20個取得",
+      "description": "スキルツリーで20ノード解放。",
+      "unlock_condition": "解放スキル数>=20",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「博学」",
+      "notes": null
+    },
+    {
+      "id": "A-044",
+      "category": "能力",
+      "grade": "ゴールド",
+      "title": "能力100到達",
+      "description": "いずれか1能力が100到達。",
+      "unlock_condition": "能力（任意）>=100",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「極まりし者」",
+      "notes": null
+    },
+    {
+      "id": "A-045",
+      "category": "能力",
+      "grade": "ゴールド",
+      "title": "全能力85到達",
+      "description": "全5能力が85以上。",
+      "unlock_condition": "全能力>=85",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「完全人類」＋墓標装飾",
+      "notes": null
+    },
+    {
+      "id": "A-046",
+      "category": "能力",
+      "grade": "プラチナ",
+      "title": "全5能力100到達",
+      "description": "全5能力が100に到達。",
+      "unlock_condition": "全能力==100",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓石デザイン1種＋称号「全能の人」",
+      "notes": "極希少"
+    },
+    {
+      "id": "A-047",
+      "category": "異才",
+      "grade": "ブロンズ",
+      "title": "異才1種解放",
+      "description": "異才を1種解放。",
+      "unlock_condition": "異才ノード解放数>=1",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「異才の片鱗」",
+      "notes": null
+    },
+    {
+      "id": "A-048",
+      "category": "異才",
+      "grade": "ブロンズ",
+      "title": "危ないバイト経験",
+      "description": "L-028 危ないバイト誘いを受ける。",
+      "unlock_condition": "L-028「危ないバイト誘い」で「受ける」選択",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「夜の使者」",
+      "notes": "闇渡り解放への道"
+    },
+    {
+      "id": "A-049",
+      "category": "異才",
+      "grade": "ブロンズ",
+      "title": "出家のお誘い経験",
+      "description": "L-033 出家のお誘いを受ける。",
+      "unlock_condition": "L-033「出家のお誘い」で「受ける」選択",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「俗世を離れる者」",
+      "notes": "悟り解放への道"
+    },
+    {
+      "id": "A-050",
+      "category": "異才",
+      "grade": "ブロンズ",
+      "title": "隠しイベント1個経験",
+      "description": "is_hidden=TRUE のイベントを発火。",
+      "unlock_condition": "is_hidden=TRUE のイベント1件以上発火",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「秘密の発見者」",
+      "notes": null
+    },
+    {
+      "id": "A-051",
+      "category": "異才",
+      "grade": "シルバー",
+      "title": "異才3種解放",
+      "description": "異才を3種解放。",
+      "unlock_condition": "異才ノード解放数>=3（家系合算）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「異能の人」＋隠し強み「変人」候補",
+      "notes": "§16.1.3変人解放条件"
+    },
+    {
+      "id": "A-052",
+      "category": "異才",
+      "grade": "シルバー",
+      "title": "不老解放",
+      "description": "異才「不老」を解放。",
+      "unlock_condition": "異才「不老」ノード解放",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「不老の境地」",
+      "notes": "極希少"
+    },
+    {
+      "id": "A-053",
+      "category": "異才",
+      "grade": "シルバー",
+      "title": "離婚マスター解放",
+      "description": "異才「離婚マスター」を解放。",
+      "unlock_condition": "異才「離婚マスター」ノード解放",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「自由を求める者」",
+      "notes": "離婚3回経験"
+    },
+    {
+      "id": "A-054",
+      "category": "異才",
+      "grade": "ゴールド",
+      "title": "異才5種解放",
+      "description": "異才を5種解放。",
+      "unlock_condition": "異才ノード解放数>=5（家系合算）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「異才の体現者」＋墓標装飾",
+      "notes": null
+    },
+    {
+      "id": "A-055",
+      "category": "異才",
+      "grade": "ゴールド",
+      "title": "悟り解放",
+      "description": "異才「悟り」を解放。",
+      "unlock_condition": "異才「悟り」ノード解放（出家＋幸福度100）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「悟りし者」",
+      "notes": "極希少"
+    },
+    {
+      "id": "A-056",
+      "category": "異才",
+      "grade": "プラチナ",
+      "title": "異才10種フル解放",
+      "description": "異才10ノードすべて解放（家系合算）。",
+      "unlock_condition": "異才ノード解放数==10",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "墓石デザイン1種＋称号「異才マスター」",
+      "notes": "周回前提・最難関の一つ"
+    },
+    {
+      "id": "A-057",
+      "category": "エンディング",
+      "grade": "ブロンズ",
+      "title": "初エンディング達成",
+      "description": "初めてエンディングに到達。",
+      "unlock_condition": "エンディング1回到達",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「人生を生きた者」",
+      "notes": null
+    },
+    {
+      "id": "A-058",
+      "category": "エンディング",
+      "grade": "ブロンズ",
+      "title": "大往生達成",
+      "description": "エンディング「大往生」に到達。",
+      "unlock_condition": "エンディング種別=大往生",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓標フレーム「大往生」解放",
+      "notes": null
+    },
+    {
+      "id": "A-059",
+      "category": "エンディング",
+      "grade": "ブロンズ",
+      "title": "早世達成",
+      "description": "エンディング「早世」に到達。",
+      "unlock_condition": "エンディング種別=早世（50歳未満死亡）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓標フレーム「早世」解放",
+      "notes": null
+    },
+    {
+      "id": "A-060",
+      "category": "エンディング",
+      "grade": "ブロンズ",
+      "title": "平凡な人生達成",
+      "description": "エンディング「平凡な人生」に到達。",
+      "unlock_condition": "エンディング種別=平凡な人生",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓標フレーム「平凡」解放",
+      "notes": null
+    },
+    {
+      "id": "A-061",
+      "category": "エンディング",
+      "grade": "シルバー",
+      "title": "5種エンディング達成",
+      "description": "5種類のエンディングに到達。",
+      "unlock_condition": "達成エンディング種別>=5",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「5つの人生」",
+      "notes": null
+    },
+    {
+      "id": "A-062",
+      "category": "エンディング",
+      "grade": "シルバー",
+      "title": "栄華の人生達成",
+      "description": "エンディング「栄華の人生」に到達。",
+      "unlock_condition": "エンディング種別=栄華の人生",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓標フレーム「栄華」解放",
+      "notes": null
+    },
+    {
+      "id": "A-063",
+      "category": "エンディング",
+      "grade": "シルバー",
+      "title": "逆境の英雄達成",
+      "description": "エンディング「逆境の英雄」に到達。",
+      "unlock_condition": "エンディング種別=逆境の英雄（破産経験＋資産1億）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓標フレーム「逆境」解放",
+      "notes": null
+    },
+    {
+      "id": "A-064",
+      "category": "エンディング",
+      "grade": "ゴールド",
+      "title": "10種エンディング達成",
+      "description": "10種類のエンディングに到達。",
+      "unlock_condition": "達成エンディング種別>=10",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「人生の探求者」＋墓標装飾",
+      "notes": null
+    },
+    {
+      "id": "A-065",
+      "category": "エンディング",
+      "grade": "ゴールド",
+      "title": "特殊エンド：悟り達成",
+      "description": "特殊エンディング「悟り」に到達。",
+      "unlock_condition": "エンディング種別=特殊エンド：悟り（異才悟り取得）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「悟りに至る者」",
+      "notes": null
+    },
+    {
+      "id": "A-066",
+      "category": "エンディング",
+      "grade": "プラチナ",
+      "title": "全14種エンディング達成",
+      "description": "全14種エンディング達成（家系合算）。",
+      "unlock_condition": "達成エンディング種別==14",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓石デザイン1種＋称号「全結末を見届けし者」",
+      "notes": "周回前提"
+    },
+    {
+      "id": "A-067",
+      "category": "プレイ",
+      "grade": "ブロンズ",
+      "title": "1キャラ完走",
+      "description": "1キャラを死亡まで完走。",
+      "unlock_condition": "1キャラ完走（早世含む）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「人生の旅人」",
+      "notes": null
+    },
+    {
+      "id": "A-068",
+      "category": "プレイ",
+      "grade": "ブロンズ",
+      "title": "1時間プレイ",
+      "description": "累計1時間プレイ。",
+      "unlock_condition": "累計プレイ時間>=1時間",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「初心者」",
+      "notes": null
+    },
+    {
+      "id": "A-069",
+      "category": "プレイ",
+      "grade": "ブロンズ",
+      "title": "連続3日プレイ",
+      "description": "3日連続でプレイ。",
+      "unlock_condition": "連続ログイン3日",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「3日目の客」",
+      "notes": null
+    },
+    {
+      "id": "A-070",
+      "category": "プレイ",
+      "grade": "ブロンズ",
+      "title": "SNS共有1回",
+      "description": "墓標をSNSに1回共有。",
+      "unlock_condition": "墓標共有>=1回",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「ストーリーテラー」＋次世代+10%ボーナス",
+      "notes": "§11.4.6"
+    },
+    {
+      "id": "A-071",
+      "category": "プレイ",
+      "grade": "ブロンズ",
+      "title": "周回1回",
+      "description": "周回プレイを1回経験。",
+      "unlock_condition": "周回数>=1",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「次の人生へ」",
+      "notes": null
+    },
+    {
+      "id": "A-072",
+      "category": "プレイ",
+      "grade": "シルバー",
+      "title": "周回5回",
+      "description": "累計5周回。",
+      "unlock_condition": "周回数>=5",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "戒名フォント1種＋称号「五代目」",
+      "notes": "§16.1.2"
+    },
+    {
+      "id": "A-073",
+      "category": "プレイ",
+      "grade": "シルバー",
+      "title": "累計10時間プレイ",
+      "description": "累計プレイ時間10時間。",
+      "unlock_condition": "累計プレイ時間>=10時間",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「常連」",
+      "notes": null
+    },
+    {
+      "id": "A-074",
+      "category": "プレイ",
+      "grade": "シルバー",
+      "title": "連続30日プレイ",
+      "description": "30日連続プレイ。",
+      "unlock_condition": "連続ログイン30日",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「習慣化された生活」",
+      "notes": null
+    },
+    {
+      "id": "A-075",
+      "category": "プレイ",
+      "grade": "ゴールド",
+      "title": "周回20回",
+      "description": "累計20周回。",
+      "unlock_condition": "周回数>=20",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "戒名フォント1種＋称号「二十代続く血脈」",
+      "notes": "§16.1.2"
+    },
+    {
+      "id": "A-076",
+      "category": "プレイ",
+      "grade": "ゴールド",
+      "title": "累計100時間プレイ",
+      "description": "累計プレイ時間100時間。",
+      "unlock_condition": "累計プレイ時間>=100時間",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「廃人」＋墓標装飾",
+      "notes": null
+    },
+    {
+      "id": "A-077",
+      "category": "プレイ",
+      "grade": "プラチナ",
+      "title": "周回100回",
+      "description": "累計100周回。",
+      "unlock_condition": "周回数>=100",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓石デザイン1種＋称号「百代の主」",
+      "notes": "コンプ系・最終目標"
+    },
+    {
+      "id": "A-078",
+      "category": "時代",
+      "grade": "ブロンズ",
+      "title": "昭和達成",
+      "description": "昭和でエンディング達成。",
+      "unlock_condition": "時代=昭和でエンディング1回",
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "reward": "称号「昭和を生きた者」",
+      "notes": null
+    },
+    {
+      "id": "A-079",
+      "category": "時代",
+      "grade": "ブロンズ",
+      "title": "平成達成",
+      "description": "平成でエンディング達成。",
+      "unlock_condition": "時代=平成でエンディング1回",
+      "applicable_eras": [
+        "平成"
+      ],
+      "is_hidden": false,
+      "reward": "称号「平成を生きた者」",
+      "notes": null
+    },
+    {
+      "id": "A-080",
+      "category": "時代",
+      "grade": "ブロンズ",
+      "title": "令和達成",
+      "description": "令和でエンディング達成。",
+      "unlock_condition": "時代=令和でエンディング1回",
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "reward": "称号「令和を生きた者」",
+      "notes": null
+    },
+    {
+      "id": "A-081",
+      "category": "時代",
+      "grade": "ブロンズ",
+      "title": "近未来達成",
+      "description": "近未来でエンディング達成。",
+      "unlock_condition": "時代=近未来でエンディング1回",
+      "applicable_eras": [
+        "近未来"
+      ],
+      "is_hidden": false,
+      "reward": "称号「未来を生きた者」",
+      "notes": null
+    },
+    {
+      "id": "A-082",
+      "category": "時代",
+      "grade": "シルバー",
+      "title": "世界周遊の旅人",
+      "description": "4時代すべてでエンディング達成。",
+      "unlock_condition": "全4時代で各1回以上エンディング",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "背景パターン「四時代」解放",
+      "notes": "§7.1.5"
+    },
+    {
+      "id": "A-083",
+      "category": "時代",
+      "grade": "シルバー",
+      "title": "昭和でバブル経験",
+      "description": "昭和でバブル経済イベントを経験。",
+      "unlock_condition": "T-003「バブル経済」発火",
+      "applicable_eras": [
+        "昭和"
+      ],
+      "is_hidden": false,
+      "reward": "称号「バブルの寵児」",
+      "notes": null
+    },
+    {
+      "id": "A-084",
+      "category": "時代",
+      "grade": "シルバー",
+      "title": "令和でAI革命対応",
+      "description": "令和でAI革命イベントに対応。",
+      "unlock_condition": "T-014「AI革命」で「活用する」選択",
+      "applicable_eras": [
+        "令和"
+      ],
+      "is_hidden": false,
+      "reward": "称号「AI時代の先駆者」",
+      "notes": null
+    },
+    {
+      "id": "A-085",
+      "category": "時代",
+      "grade": "ゴールド",
+      "title": "各時代必発イベント全経験",
+      "description": "全19件の必発イベントすべて経験（家系合算）。",
+      "unlock_condition": "全T-###イベント発火済み",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "背景パターン「歴史の証人」解放",
+      "notes": "§16.1.2"
+    },
+    {
+      "id": "A-086",
+      "category": "時代",
+      "grade": "ゴールド",
+      "title": "4時代すべて完走",
+      "description": "4時代×80年完走（早世なしで全時代到達）。",
+      "unlock_condition": "全4時代で80歳到達or自然死完走",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "称号「四世界の探訪者」＋墓標装飾",
+      "notes": null
+    },
+    {
+      "id": "A-087",
+      "category": "時代",
+      "grade": "プラチナ",
+      "title": "全時代×全強み完走",
+      "description": "4時代×標準5強み（20通り）すべて完走。",
+      "unlock_condition": "20通りの組合せで完走",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": false,
+      "reward": "墓石デザイン1種＋称号「全宇宙の旅人」",
+      "notes": "周回前提・コンプ"
+    },
+    {
+      "id": "A-088",
+      "category": "隠し",
+      "grade": "ブロンズ",
+      "title": "大凶を引いて開運",
+      "description": "L-030 大凶を対策祈祷。",
+      "unlock_condition": "L-030「大凶」で「対策祈祷」選択",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「運命を変える者」",
+      "notes": null
+    },
+    {
+      "id": "A-089",
+      "category": "隠し",
+      "grade": "ブロンズ",
+      "title": "正直者は損をしない",
+      "description": "L-026 財布を拾って警察に届ける。",
+      "unlock_condition": "L-026「財布拾う」で「警察に届ける」選択",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「正直者」",
+      "notes": null
+    },
+    {
+      "id": "A-090",
+      "category": "隠し",
+      "grade": "ブロンズ",
+      "title": "宝くじ当選",
+      "description": "L-023 宝くじが当選。",
+      "unlock_condition": "L-023「宝くじ当選」発火",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「幸運の星」",
+      "notes": null
+    },
+    {
+      "id": "A-091",
+      "category": "隠し",
+      "grade": "ブロンズ",
+      "title": "ふるさと納税で高級肉",
+      "description": "L-024 高級肉ばかり選択。",
+      "unlock_condition": "L-024「ふるさと納税」で「高級肉ばかり」選択",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「美食家」",
+      "notes": null
+    },
+    {
+      "id": "A-092",
+      "category": "隠し",
+      "grade": "ブロンズ",
+      "title": "12ヶ月のんびり",
+      "description": "12ヶ月連続でゆっくり休むアクション。",
+      "unlock_condition": "「ゆっくり休む」を12回連続選択",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「人生の休暇」",
+      "notes": null
+    },
+    {
+      "id": "A-093",
+      "category": "隠し",
+      "grade": "シルバー",
+      "title": "イベントの嵐",
+      "description": "同一月内で連鎖10件以上のイベント発火。",
+      "unlock_condition": "1ターンで連鎖イベント10件以上",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「人生のジェットコースター」",
+      "notes": "極稀"
+    },
+    {
+      "id": "A-094",
+      "category": "隠し",
+      "grade": "シルバー",
+      "title": "全強み試行",
+      "description": "1キャラで5強みすべての行動アクションを経験。",
+      "unlock_condition": "1キャラ内で全5アクション系統>=10pt",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「万能の試行者」",
+      "notes": null
+    },
+    {
+      "id": "A-095",
+      "category": "隠し",
+      "grade": "シルバー",
+      "title": "100歳到達",
+      "description": "100歳まで生存。",
+      "unlock_condition": "現役年齢>=100歳",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「百寿」＋墓標装飾",
+      "notes": null
+    },
+    {
+      "id": "A-096",
+      "category": "隠し",
+      "grade": "シルバー",
+      "title": "1ヶ月で3キャラ完走",
+      "description": "30日以内に3キャラを完走。",
+      "unlock_condition": "30日内に完走3回",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「人生の急行列車」",
+      "notes": null
+    },
+    {
+      "id": "A-097",
+      "category": "隠し",
+      "grade": "ゴールド",
+      "title": "全月操作",
+      "description": "0歳から100歳まで全月操作。",
+      "unlock_condition": "全960ターンの操作月で操作実施（自動進行ゼロ）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「人生の手綱を握る者」",
+      "notes": null
+    },
+    {
+      "id": "A-098",
+      "category": "隠し",
+      "grade": "ゴールド",
+      "title": "家系で全異才",
+      "description": "異才を家系合算で全10種解放。",
+      "unlock_condition": "異才解放数==10（家系合算）",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「異才の系譜」",
+      "notes": "A-056と類似だが家系条件で別実績"
+    },
+    {
+      "id": "A-099",
+      "category": "隠し",
+      "grade": "プラチナ",
+      "title": "隠しの探求者",
+      "description": "隠し実績ブロンズ・シルバー・ゴールドすべて達成。",
+      "unlock_condition": "隠しカテゴリ A-088〜A-098（11件）すべて達成",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "称号「秘密の収集家」",
+      "notes": "隠しカテゴリ内の小プラチナ"
+    },
+    {
+      "id": "A-100",
+      "category": "隠し",
+      "grade": "プラチナ",
+      "title": "総合プラチナ",
+      "description": "全99実績を達成（最終ボス）。",
+      "unlock_condition": "A-001〜A-099すべて達成",
+      "applicable_eras": [
+        "全時代"
+      ],
+      "is_hidden": true,
+      "reward": "墓石デザイン特別版＋称号「全てを成し遂げし者」",
+      "notes": "総合・最終目標"
+    }
+  ]
+}

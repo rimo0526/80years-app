@@ -1,0 +1,12 @@
+{
+  "name": "資本主義ゲーム",
+  "short_name": "資本主義ゲーム",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ECEAE3",
+  "theme_color": "#378ADD",
+  "description": "80年の人生を1時間で生き直す、リプレイ性重視のローグライク人生シム",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": []
+}
