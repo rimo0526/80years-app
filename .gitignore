@@ -83,3 +83,10 @@ release_artifacts/
 save.json
 save.bak.json
 local_save_dump/
+
+# ============================================================
+# Phase C v0.1：AI Playtest ログ
+# ============================================================
+# ログ本体は除外（_summary.json も除外）。.gitkeep のみ追跡。
+tools/ai_playtest/logs/*/
+!tools/ai_playtest/logs/.gitkeep

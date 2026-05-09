@@ -1,0 +1,2 @@
+# Phase C v0.1 ログ出力先
+# 実際のログファイルは .gitignore で除外（後段で .gitignore 追加）
